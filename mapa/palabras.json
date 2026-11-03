@@ -1,0 +1,749 @@
+{
+ "generado": "2026-11-03 03:56",
+ "total_entradas": 11,
+ "terminos": [
+  {
+   "id": "cerrar",
+   "t": "cerrar",
+   "n": 4,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29",
+    "2026-11-03 03:31",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "desperte",
+   "t": "desperté",
+   "n": 4,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29",
+    "2026-11-03 03:31",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "sueno",
+   "t": "sueño",
+   "n": 4,
+   "entradas": [
+    "2026-11-02 23:55",
+    "2026-11-03 03:23",
+    "2026-11-03 03:27",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "mejor",
+   "t": "mejor",
+   "n": 3,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-03 03:23",
+    "2026-11-03 03:45"
+   ]
+  },
+  {
+   "id": "numero",
+   "t": "número",
+   "n": 3,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:31",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "pensamientos",
+   "t": "pensamientos",
+   "n": 3,
+   "entradas": [
+    "2026-11-02 23:44",
+    "2026-11-02 23:45",
+    "2026-11-03 03:45"
+   ]
+  },
+  {
+   "id": "poner",
+   "t": "poner",
+   "n": 3,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-03 03:23",
+    "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "ritual",
+   "t": "ritual",
+   "n": 3,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "abierto",
+   "t": "abierto",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "abrir",
+   "t": "abrir",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "almohada",
+   "t": "almohada",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "chaman",
+   "t": "chamán",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:45"
+   ]
+  },
+  {
+   "id": "dejar",
+   "t": "dejar",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "dormir",
+   "t": "dormir",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:55",
+    "2026-11-03 03:23"
+   ]
+  },
+  {
+   "id": "haber",
+   "t": "haber",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "irme",
+   "t": "irme",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:55",
+    "2026-11-03 03:23"
+   ]
+  },
+  {
+   "id": "irme a dormir",
+   "t": "irme a dormir",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:55",
+    "2026-11-03 03:23"
+   ]
+  },
+  {
+   "id": "llamando",
+   "t": "llamando",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "musica",
+   "t": "música",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-02 23:55"
+   ]
+  },
+  {
+   "id": "numero de telefono",
+   "t": "número de teléfono",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "ouija",
+   "t": "ouija",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "razon",
+   "t": "razón",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "recuerdo",
+   "t": "recuerdo",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "remera",
+   "t": "remera",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "telefono",
+   "t": "teléfono",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:35"
+   ]
+  }
+ ],
+ "pares": [
+  [
+   "cerrar",
+   "desperte",
+   4
+  ],
+  [
+   "cerrar",
+   "numero",
+   3
+  ],
+  [
+   "cerrar",
+   "ritual",
+   3
+  ],
+  [
+   "desperte",
+   "numero",
+   3
+  ],
+  [
+   "desperte",
+   "ritual",
+   3
+  ],
+  [
+   "mejor",
+   "poner",
+   2
+  ],
+  [
+   "dormir",
+   "irme",
+   2
+  ],
+  [
+   "dormir",
+   "sueno",
+   2
+  ],
+  [
+   "irme",
+   "sueno",
+   2
+  ],
+  [
+   "irme a dormir",
+   "sueno",
+   2
+  ],
+  [
+   "abierto",
+   "cerrar",
+   2
+  ],
+  [
+   "abierto",
+   "dejar",
+   2
+  ],
+  [
+   "abierto",
+   "desperte",
+   2
+  ],
+  [
+   "abierto",
+   "llamando",
+   2
+  ],
+  [
+   "abierto",
+   "numero",
+   2
+  ],
+  [
+   "abierto",
+   "numero de telefono",
+   2
+  ],
+  [
+   "abierto",
+   "ouija",
+   2
+  ],
+  [
+   "abierto",
+   "ritual",
+   2
+  ],
+  [
+   "abierto",
+   "sueno",
+   2
+  ],
+  [
+   "abierto",
+   "telefono",
+   2
+  ],
+  [
+   "abrir",
+   "almohada",
+   2
+  ],
+  [
+   "abrir",
+   "cerrar",
+   2
+  ],
+  [
+   "abrir",
+   "desperte",
+   2
+  ],
+  [
+   "abrir",
+   "haber",
+   2
+  ],
+  [
+   "abrir",
+   "poner",
+   2
+  ],
+  [
+   "abrir",
+   "razon",
+   2
+  ],
+  [
+   "abrir",
+   "recuerdo",
+   2
+  ],
+  [
+   "abrir",
+   "remera",
+   2
+  ],
+  [
+   "abrir",
+   "ritual",
+   2
+  ],
+  [
+   "almohada",
+   "cerrar",
+   2
+  ],
+  [
+   "almohada",
+   "desperte",
+   2
+  ],
+  [
+   "almohada",
+   "haber",
+   2
+  ],
+  [
+   "almohada",
+   "poner",
+   2
+  ],
+  [
+   "almohada",
+   "razon",
+   2
+  ],
+  [
+   "almohada",
+   "recuerdo",
+   2
+  ],
+  [
+   "almohada",
+   "remera",
+   2
+  ],
+  [
+   "almohada",
+   "ritual",
+   2
+  ],
+  [
+   "cerrar",
+   "dejar",
+   2
+  ],
+  [
+   "cerrar",
+   "haber",
+   2
+  ],
+  [
+   "cerrar",
+   "llamando",
+   2
+  ],
+  [
+   "cerrar",
+   "numero de telefono",
+   2
+  ],
+  [
+   "cerrar",
+   "ouija",
+   2
+  ],
+  [
+   "cerrar",
+   "poner",
+   2
+  ],
+  [
+   "cerrar",
+   "razon",
+   2
+  ],
+  [
+   "cerrar",
+   "recuerdo",
+   2
+  ],
+  [
+   "cerrar",
+   "remera",
+   2
+  ],
+  [
+   "cerrar",
+   "sueno",
+   2
+  ],
+  [
+   "cerrar",
+   "telefono",
+   2
+  ],
+  [
+   "chaman",
+   "mejor",
+   2
+  ],
+  [
+   "dejar",
+   "desperte",
+   2
+  ],
+  [
+   "dejar",
+   "llamando",
+   2
+  ],
+  [
+   "dejar",
+   "numero",
+   2
+  ],
+  [
+   "dejar",
+   "numero de telefono",
+   2
+  ],
+  [
+   "dejar",
+   "ouija",
+   2
+  ],
+  [
+   "dejar",
+   "ritual",
+   2
+  ],
+  [
+   "dejar",
+   "sueno",
+   2
+  ],
+  [
+   "dejar",
+   "telefono",
+   2
+  ],
+  [
+   "desperte",
+   "haber",
+   2
+  ],
+  [
+   "desperte",
+   "llamando",
+   2
+  ],
+  [
+   "desperte",
+   "numero de telefono",
+   2
+  ],
+  [
+   "desperte",
+   "ouija",
+   2
+  ],
+  [
+   "desperte",
+   "poner",
+   2
+  ],
+  [
+   "desperte",
+   "razon",
+   2
+  ],
+  [
+   "desperte",
+   "recuerdo",
+   2
+  ],
+  [
+   "desperte",
+   "remera",
+   2
+  ],
+  [
+   "desperte",
+   "sueno",
+   2
+  ],
+  [
+   "desperte",
+   "telefono",
+   2
+  ],
+  [
+   "haber",
+   "poner",
+   2
+  ],
+  [
+   "haber",
+   "razon",
+   2
+  ],
+  [
+   "haber",
+   "recuerdo",
+   2
+  ],
+  [
+   "haber",
+   "remera",
+   2
+  ],
+  [
+   "haber",
+   "ritual",
+   2
+  ],
+  [
+   "llamando",
+   "numero",
+   2
+  ],
+  [
+   "llamando",
+   "numero de telefono",
+   2
+  ],
+  [
+   "llamando",
+   "ouija",
+   2
+  ],
+  [
+   "llamando",
+   "ritual",
+   2
+  ],
+  [
+   "llamando",
+   "sueno",
+   2
+  ],
+  [
+   "llamando",
+   "telefono",
+   2
+  ],
+  [
+   "numero",
+   "ouija",
+   2
+  ],
+  [
+   "numero",
+   "ritual",
+   2
+  ],
+  [
+   "numero",
+   "sueno",
+   2
+  ],
+  [
+   "numero",
+   "telefono",
+   2
+  ],
+  [
+   "numero de telefono",
+   "ouija",
+   2
+  ],
+  [
+   "numero de telefono",
+   "ritual",
+   2
+  ],
+  [
+   "numero de telefono",
+   "sueno",
+   2
+  ],
+  [
+   "ouija",
+   "ritual",
+   2
+  ],
+  [
+   "ouija",
+   "sueno",
+   2
+  ],
+  [
+   "ouija",
+   "telefono",
+   2
+  ],
+  [
+   "poner",
+   "razon",
+   2
+  ],
+  [
+   "poner",
+   "recuerdo",
+   2
+  ],
+  [
+   "poner",
+   "remera",
+   2
+  ],
+  [
+   "poner",
+   "ritual",
+   2
+  ],
+  [
+   "razon",
+   "recuerdo",
+   2
+  ],
+  [
+   "razon",
+   "remera",
+   2
+  ],
+  [
+   "razon",
+   "ritual",
+   2
+  ],
+  [
+   "recuerdo",
+   "remera",
+   2
+  ],
+  [
+   "recuerdo",
+   "ritual",
+   2
+  ],
+  [
+   "remera",
+   "ritual",
+   2
+  ],
+  [
+   "ritual",
+   "sueno",
+   2
+  ],
+  [
+   "ritual",
+   "telefono",
+   2
+  ],
+  [
+   "sueno",
+   "telefono",
+   2
+  ]
+ ]
+}

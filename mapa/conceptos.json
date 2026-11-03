@@ -1,0 +1,116 @@
+{
+  "actualizado": "2026-11-03 03:55",
+  "conceptos": [
+    {
+      "id": "yo-analitico",
+      "nombre": "Yo analítico (chamán, sabio)",
+      "variantes": ["yo analítico", "chamán", "guía", "sabio", "lento", "minucioso", "viejo", "largo plazo"],
+      "entradas": ["2026-11-03 03:23", "2026-11-03 03:45"]
+    },
+    {
+      "id": "yo-presente",
+      "nombre": "Juan Cruz de 20 años (yo presente)",
+      "variantes": ["Juan Cruz de 20 años", "feliz en el momento", "yo presente", "joven", "nuevo"],
+      "entradas": ["2026-11-03 03:45"]
+    },
+    {
+      "id": "balance",
+      "nombre": "Balance entre los dos yo",
+      "variantes": ["balance", "encontrar un balance", "darle lo mejor al yo presente"],
+      "entradas": ["2026-11-03 03:45"]
+    },
+    {
+      "id": "recompensa-instantanea",
+      "nombre": "Recompensa instantánea vs. bien más grande",
+      "variantes": ["recompensa instantánea", "instantaneidad", "bien más grande", "ver ese más allá", "jugador de fútbol", "priorizar"],
+      "entradas": ["2026-11-02 23:48"]
+    },
+    {
+      "id": "horarios-estimulo",
+      "nombre": "Horarios y menos estímulo",
+      "variantes": ["horarios", "menos estimulado", "servicio militar", "hacer un cambio"],
+      "entradas": ["2026-11-02 23:48"]
+    },
+    {
+      "id": "musica",
+      "nombre": "Música y pinchar",
+      "variantes": ["música", "ordenar mi música", "descargar", "pinchar", "fecha", "escucho música"],
+      "entradas": ["2026-11-02 23:48", "2026-11-02 23:55"]
+    },
+    {
+      "id": "noche-libertad",
+      "nombre": "La noche: dormir o quedarme (libertad)",
+      "variantes": ["irme a dormir", "fumar", "porrito", "Discord", "libertad", "desperdiciar", "me cortaban el internet"],
+      "entradas": ["2026-11-02 23:55", "2026-11-03 03:23"]
+    },
+    {
+      "id": "animo",
+      "nombre": "Sentirme bien, motivado",
+      "variantes": ["me he sentido bien", "motivado", "me siento mejor", "estar dentro de todo bien"],
+      "entradas": ["2026-11-02 23:48", "2026-11-03 03:45"]
+    },
+    {
+      "id": "ritual",
+      "nombre": "Ritual que se abre y se cierra (sueño)",
+      "variantes": ["ritual", "ouija", "número de teléfono", "abrirlo y cerrarlo", "dejar abierto", "cerrarlo", "sesión"],
+      "entradas": ["2026-11-03 03:23", "2026-11-03 03:29", "2026-11-03 03:31", "2026-11-03 03:35"]
+    },
+    {
+      "id": "yo-del-sueno",
+      "nombre": "El yo del sueño",
+      "variantes": ["yo del sueño", "me desperté sin cerrarlo", "seguramente lo cerró"],
+      "entradas": ["2026-11-03 03:31", "2026-11-03 03:35"]
+    },
+    {
+      "id": "remera-almohada",
+      "nombre": "La remera en la almohada",
+      "variantes": ["remera", "almohada", "dormir mejor", "por alguna razón"],
+      "entradas": ["2026-11-03 03:23", "2026-11-03 03:29"]
+    },
+    {
+      "id": "amigos-honey",
+      "nombre": "Amigos y gente de la Honey",
+      "variantes": ["amigos", "gente de la Honey", "ellos eran 6"],
+      "entradas": ["2026-11-03 03:23"]
+    },
+    {
+      "id": "abuelos",
+      "nombre": "Departamento de mis abuelos",
+      "variantes": ["abuelos", "la mesa del departamento"],
+      "entradas": ["2026-11-03 03:23"]
+    },
+    {
+      "id": "registrar-pensamientos",
+      "nombre": "Registrar mis pensamientos (este repo)",
+      "variantes": ["chat de pensamientos", "repositorio", "guardar mis pensamientos"],
+      "entradas": ["2026-11-02 23:44", "2026-11-02 23:45", "2026-11-03 03:45"]
+    },
+    {
+      "id": "gato",
+      "nombre": "Mi gato",
+      "variantes": ["gato", "amo a mi gato"],
+      "entradas": ["2026-11-02 23:48"]
+    }
+  ],
+  "relaciones": [
+    {"a": "yo-analitico", "b": "ritual", "por": "Lo dijiste: el chamán del sueño se relaciona con tu yo analítico (03:45)"},
+    {"a": "yo-analitico", "b": "yo-presente", "por": "Los dos yo que nombraste juntos (03:45)"},
+    {"a": "yo-analitico", "b": "balance", "por": "Mismo pensamiento (03:45)"},
+    {"a": "yo-presente", "b": "balance", "por": "Mismo pensamiento (03:45)"},
+    {"a": "yo-analitico", "b": "registrar-pensamientos", "por": "Arrancar el repo como algo de tu yo analítico (03:45)"},
+    {"a": "yo-presente", "b": "recompensa-instantanea", "por": "Ser feliz en el momento / recompensa instantánea"},
+    {"a": "yo-analitico", "b": "recompensa-instantanea", "por": "Ver a largo plazo / ver ese más allá"},
+    {"a": "recompensa-instantanea", "b": "musica", "por": "Mismo pensamiento: ordenar la música sin recompensa inmediata (23:48)"},
+    {"a": "recompensa-instantanea", "b": "horarios-estimulo", "por": "Mismo pensamiento (23:48)"},
+    {"a": "horarios-estimulo", "b": "noche-libertad", "por": "Menos estímulo / qué hacer con la noche"},
+    {"a": "musica", "b": "noche-libertad", "por": "Escuchar música de noche (23:55)"},
+    {"a": "animo", "b": "yo-presente", "por": "Estar bien y que aparezca el de 20 años (03:45)"},
+    {"a": "animo", "b": "horarios-estimulo", "por": "Mismo pensamiento (23:48)"},
+    {"a": "ritual", "b": "yo-del-sueno", "por": "Cerrar el ritual: lo cerró el yo del sueño (03:35)"},
+    {"a": "ritual", "b": "amigos-honey", "por": "Mismo sueño (03:23)"},
+    {"a": "ritual", "b": "abuelos", "por": "Mismo sueño (03:23)"},
+    {"a": "ritual", "b": "remera-almohada", "por": "Misma noche de sueño (03:23, 03:29)"},
+    {"a": "noche-libertad", "b": "remera-almohada", "por": "Irme a dormir (03:23)"},
+    {"a": "yo-del-sueno", "b": "yo-analitico", "por": "Distintos \"yo\" que nombrás"}
+  ]
+}
