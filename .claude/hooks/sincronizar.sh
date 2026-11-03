@@ -6,7 +6,7 @@ if ! git diff --cached --quiet; then
   git commit -q -m "diario: $(TZ=America/Argentina/Mendoza date '+%Y-%m-%d %H:%M')" || exit 0
 fi
 git fetch -q origin main 2>/dev/null
-if ! git rebase -q origin/main 2>/dev/null; then
+if ! git rebase -q FETCH_HEAD 2>/dev/null; then
   git rebase --abort 2>/dev/null
   echo "Conflicto al sincronizar con main: avisale a Juan." >&2
   exit 0
