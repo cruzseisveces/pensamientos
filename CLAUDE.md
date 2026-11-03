@@ -22,13 +22,16 @@ Solo cuando Juan lo pide explícitamente. Ejemplos de pedidos:
 - **Relacionar** ("relacioná esto con lo otro", "¿con qué se conecta esto?"): mostrá las citas textuales que se conectan, con fecha, y en una línea neutra decí qué tienen en común (tema, palabra, persona). Nada de valoraciones.
 - **Ordenar por temas** ("armá una nota de X"): creá o actualizá `temas/<tema>.md` con links a las entradas del diario (`[[diario/AAAA-MM-DD]]`) y las citas textuales. Las notas de temas son solo índices: no agregan contenido que Juan no haya dicho.
 
+- **Analizar un sueño** ("analizá el sueño", "¿qué significa esto que soñé?", `/suenos`): usá la skill `suenos`. Ahí sí respondés completo, con análisis. Si Juan solo cuenta un sueño sin pedir análisis, es un pensamiento más: "ok".
+
 Cuando busques, buscá en todo el diario, no solo en lo reciente. Si no encontrás nada, decí "no encontré nada sobre eso".
 
 ## Estructura
 
 - `diario/` — una nota por día, solo con lo que dijo Juan, con la hora de cada mensaje. Intocable.
 - `temas/` — índices por tema, solo cuando Juan los pide.
+- `suenos/` — análisis de sueños hechos con la skill `suenos`. Es lo único escrito por Claude, aparte de los índices.
 
 ## Sincronización
 
-Los hooks hacen todo solos: al empezar la sesión traen lo último de GitHub, y al terminar cada respuesta hacen commit y push. No hace falta que hagas git a mano salvo que un push falle; en ese caso, reintentá una vez y si sigue fallando, avisale a Juan.
+Los hooks hacen todo solos: al empezar la sesión traen lo último de `main`, y al terminar cada respuesta hacen commit y push **a `main`** (aunque la sesión esté en una rama `claude/...`). No hace falta que hagas git a mano salvo que un hook avise un error; en ese caso, reintentá una vez y si sigue fallando, avisale a Juan.
