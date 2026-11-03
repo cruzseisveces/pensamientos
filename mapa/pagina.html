@@ -1,0 +1,334 @@
+<title>Mapa de pensamientos</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Manrope:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: una columna tipo cuaderno; grafo arriba como "constelación", lectura textual abajo. */
+:root {
+  --bg: #ECEFF4; --surface: #F8F9FB; --ink: #1C2333; --muted: #5A6476; --line: #CCD2DD;
+  --node: #3A4B70; --node-soft: #C9D2E4; --accent: #A86A12; --accent-soft: #F3E2C2; --mark: #F6DFA8;
+  --f-display: "Young Serif", Georgia, serif;
+  --f-read: "Source Serif 4", Georgia, serif;
+  --f-ui: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #11151E; --surface: #191E2A; --ink: #E5E8EF; --muted: #98A1B4; --line: #2B3345;
+  --node: #93A8D3; --node-soft: #33405C; --accent: #E2A541; --accent-soft: #3A2E18; --mark: #5A4416; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #11151E; --surface: #191E2A; --ink: #E5E8EF; --muted: #98A1B4; --line: #2B3345;
+  --node: #93A8D3; --node-soft: #33405C; --accent: #E2A541; --accent-soft: #3A2E18; --mark: #5A4416; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-ui); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 20px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 16px; }
+header h1 { font-family: var(--f-display); font-weight: 400; font-size: 1.9rem; line-height: 1.15; margin: 0; text-wrap: balance; }
+header p { margin: 4px 0 0; color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
+.bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.tabs { display: inline-flex; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 3px; }
+.tabs button { font: 600 .85rem var(--f-ui); color: var(--muted); background: none; border: 0; border-radius: 999px; padding: 7px 14px; cursor: pointer; }
+.tabs button[aria-selected="true"] { background: var(--node); color: var(--surface); }
+.tabs button:focus-visible, .chip:focus-visible, .link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+#q { flex: 1 1 180px; min-width: 0; font: 500 .95rem var(--f-ui); color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; }
+#q:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.note { font-size: .82rem; color: var(--muted); margin: 0; }
+.note.warn { color: var(--accent); }
+
+#grafo { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; height: min(62vh, 520px); min-height: 320px; position: relative; overflow: hidden; touch-action: none; }
+#grafo svg { width: 100%; height: 100%; display: block; }
+#grafo .vacio { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 24px; color: var(--muted); font-size: .9rem; }
+.edge { stroke: var(--line); }
+.edge.on { stroke: var(--accent); }
+.node circle { fill: var(--node-soft); stroke: var(--node); stroke-width: 1.5; cursor: pointer; }
+.node text { fill: var(--ink); font: 600 11px var(--f-ui); paint-order: stroke; stroke: var(--surface); stroke-width: 3px; pointer-events: none; }
+.node.dim { opacity: .25; }
+.node.sel circle { fill: var(--accent); stroke: var(--accent); }
+.node.vecino circle { fill: var(--accent-soft); stroke: var(--accent); }
+.hint { position: absolute; left: 10px; bottom: 8px; font-size: .72rem; color: var(--muted); pointer-events: none; }
+
+#detalle { display: flex; flex-direction: column; gap: 12px; }
+#detalle h2 { font-family: var(--f-display); font-weight: 400; font-size: 1.45rem; margin: 0; text-wrap: balance; }
+.meta { color: var(--muted); font-size: .82rem; font-variant-numeric: tabular-nums; }
+.label { font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: 600 .8rem var(--f-ui); border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 4px 10px; }
+button.chip { cursor: pointer; }
+button.chip:hover { border-color: var(--accent); }
+.chip small { color: var(--muted); font-weight: 500; }
+.rel { display: flex; flex-direction: column; gap: 6px; }
+.rel div { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; }
+.rel span { color: var(--muted); font-size: .82rem; }
+
+.entrada { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.entrada time { font: 500 .78rem var(--f-mono); color: var(--accent); }
+.entrada p { margin: 0; font-family: var(--f-read); font-size: 1.02rem; line-height: 1.6; max-width: 65ch; overflow-wrap: anywhere; white-space: pre-wrap; }
+mark { background: var(--mark); color: inherit; border-radius: 3px; padding: 0 2px; }
+.link { align-self: flex-start; font: 600 .8rem var(--f-ui); color: var(--node); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.dia h3 { font-family: var(--f-display); font-weight: 400; font-size: 1.15rem; margin: 8px 0; font-variant-numeric: tabular-nums; }
+.dia { display: flex; flex-direction: column; gap: 10px; }
+.entrada.flash { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+@media (prefers-reduced-motion: no-preference) { .entrada { transition: border-color .4s, box-shadow .4s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Mapa de pensamientos</h1>
+    <p id="estado">Cargando tus pensamientos…</p>
+  </header>
+
+  <div class="bar">
+    <div class="tabs" role="tablist" aria-label="Vista">
+      <button id="t-conceptos" role="tab" aria-selected="true" data-vista="conceptos">Conceptos</button>
+      <button id="t-palabras" role="tab" aria-selected="false" data-vista="palabras">Palabras</button>
+      <button id="t-diario" role="tab" aria-selected="false" data-vista="diario">Diario</button>
+    </div>
+    <input id="q" type="search" placeholder="Buscar en todo lo que dijiste" autocomplete="off" aria-label="Buscar">
+  </div>
+  <p class="note" id="explica">Conceptos agrupados por idea. Tocá uno para ver tus palabras textuales.</p>
+
+  <div id="grafo"><div class="vacio" id="vacio">Todavía no hay datos. Se llenan solos cada vez que escribís en tu sesión de pensamientos.</div><span class="hint" hidden id="hint">Arrastrá para mover · pellizcá para zoom</span></div>
+
+  <section id="detalle" aria-live="polite"></section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+(() => {
+  const S = { vista: "conceptos", conceptos: null, palabras: null, dias: [], sel: null, q: "" };
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const norm = (s) => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+
+  // regex que ignora tildes: "chaman" encuentra "chamán"
+  const VOC = { a: "aá", e: "eé", i: "ií", o: "oó", u: "uúü", n: "nñ" };
+  function flexRe(terms) {
+    const parts = terms.filter((t) => t && t.trim().length > 1).sort((a, b) => b.length - a.length).map((t) =>
+      [...norm(t)].map((c) => VOC[c] ? `[${VOC[c]}${VOC[c].toUpperCase()}]` : c.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join(""));
+    return parts.length ? new RegExp(`(${parts.join("|")})`, "gi") : null;
+  }
+  function resaltar(texto, terms) {
+    const re = flexRe(terms);
+    if (!re) return esc(texto);
+    let out = "", last = 0;
+    texto.replace(re, (m, _g, off) => { out += esc(texto.slice(last, off)) + "<mark>" + esc(m) + "</mark>"; last = off + m.length; return m; });
+    return out + esc(texto.slice(last));
+  }
+
+  // índice de entradas: "AAAA-MM-DD HH:MM" -> texto
+  function indice() {
+    const m = new Map();
+    for (const d of S.dias) for (const e of d.entradas || []) m.set(`${d.fecha} ${e.hora}`, e.texto);
+    return m;
+  }
+  const lindaFecha = (f) => {
+    const [y, mo, d] = f.split("-").map(Number);
+    return new Date(y, mo - 1, d).toLocaleDateString("es-AR", { weekday: "long", day: "numeric", month: "long" });
+  };
+
+  // ---------- datos de cada vista ----------
+  function grafoDatos() {
+    if (S.vista === "conceptos" && S.conceptos) {
+      const nodes = (S.conceptos.conceptos || []).map((c) => ({ id: c.id, label: c.nombre, n: (c.entradas || []).length, raw: c }));
+      const ids = new Set(nodes.map((n) => n.id));
+      const links = (S.conceptos.relaciones || []).filter((r) => ids.has(r.a) && ids.has(r.b)).map((r) => ({ source: r.a, target: r.b, w: 1, por: r.por }));
+      return { nodes, links };
+    }
+    if (S.vista === "palabras" && S.palabras) {
+      const nodes = (S.palabras.terminos || []).slice(0, 60).map((t) => ({ id: t.id, label: t.t, n: t.n, raw: t }));
+      const ids = new Set(nodes.map((n) => n.id));
+      const links = (S.palabras.pares || []).filter(([a, b]) => ids.has(a) && ids.has(b)).map(([a, b, c]) => ({ source: a, target: b, w: c }));
+      return { nodes, links };
+    }
+    return { nodes: [], links: [] };
+  }
+  function termsDe(nodo) {
+    if (!nodo) return [];
+    return S.vista === "conceptos" ? [...(nodo.raw.variantes || [])] : [nodo.raw.t];
+  }
+  function coincide(nodo, q) {
+    if (!q) return true;
+    const nq = norm(q);
+    if (norm(nodo.label).includes(nq)) return true;
+    if (termsDe(nodo).some((t) => norm(t).includes(nq))) return true;
+    const idx = indice();
+    return (nodo.raw.entradas || []).some((k) => norm(idx.get(k) || "").includes(nq));
+  }
+
+  // ---------- grafo ----------
+  let svg, gZoom, zoom, current = { nodes: [], links: [] };
+  function dibujar() {
+    const box = $("grafo");
+    const datos = grafoDatos();
+    current = datos;
+    $("vacio").hidden = datos.nodes.length > 0 || S.vista === "diario";
+    $("hint").hidden = datos.nodes.length === 0;
+    box.hidden = S.vista === "diario";
+    if (svg) svg.remove();
+    if (!datos.nodes.length || S.vista === "diario" || !window.d3) return;
+
+    const W = box.clientWidth, H = box.clientHeight;
+    const maxN = d3.max(datos.nodes, (d) => d.n) || 1;
+    const r = d3.scaleSqrt().domain([1, maxN]).range([6, 20]);
+    const nodes = datos.nodes.map((d) => ({ ...d }));
+    const links = datos.links.map((d) => ({ ...d }));
+    d3.forceSimulation(nodes)
+      .force("link", d3.forceLink(links).id((d) => d.id).distance(70).strength(0.4))
+      .force("charge", d3.forceManyBody().strength(-180))
+      .force("center", d3.forceCenter(0, 0))
+      .force("collide", d3.forceCollide().radius((d) => r(d.n) + 18))
+      .force("x", d3.forceX(0).strength(0.05)).force("y", d3.forceY(0).strength(0.07))
+      .stop().tick(320);
+
+    svg = d3.select(box).insert("svg", ":first-child").attr("viewBox", [0, 0, W, H]).attr("role", "img").attr("aria-label", "Grafo de conceptos");
+    gZoom = svg.append("g");
+    const g = gZoom.append("g");
+    const edges = g.append("g").selectAll("line").data(links).join("line").attr("class", "edge")
+      .attr("stroke-width", (d) => Math.min(1 + d.w * 0.6, 4))
+      .attr("x1", (d) => d.source.x).attr("y1", (d) => d.source.y).attr("x2", (d) => d.target.x).attr("y2", (d) => d.target.y);
+    const nd = g.append("g").selectAll("g").data(nodes).join("g").attr("class", "node")
+      .attr("transform", (d) => `translate(${d.x},${d.y})`).attr("tabindex", 0).attr("role", "button").attr("aria-label", (d) => d.label)
+      .on("click", (e, d) => seleccionar(d.id))
+      .on("keydown", (e, d) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); seleccionar(d.id); } });
+    nd.append("circle").attr("r", (d) => r(d.n));
+    nd.append("text").attr("x", (d) => r(d.n) + 4).attr("y", 4).text((d) => d.label.length > 34 ? d.label.slice(0, 32) + "…" : d.label);
+
+    // encuadrar todo
+    const xs = nodes.map((d) => d.x), ys = nodes.map((d) => d.y);
+    const x0 = d3.min(xs) - 30, x1 = d3.max(xs) + 160, y0 = d3.min(ys) - 30, y1 = d3.max(ys) + 30;
+    const k = Math.min(W / (x1 - x0), H / (y1 - y0), 1.6);
+    zoom = d3.zoom().scaleExtent([0.3, 4]).on("zoom", (e) => g.attr("transform", e.transform));
+    svg.call(zoom).call(zoom.transform, d3.zoomIdentity.translate(W / 2 - k * (x0 + x1) / 2, H / 2 - k * (y0 + y1) / 2).scale(k));
+
+    current.edgesSel = edges; current.nodesSel = nd;
+    pintar();
+  }
+  function pintar() {
+    if (!current.nodesSel) return;
+    const vecinos = new Set();
+    if (S.sel) current.links.forEach((l) => { if (l.source === S.sel) vecinos.add(l.target); if (l.target === S.sel) vecinos.add(l.source); });
+    current.nodesSel
+      .classed("sel", (d) => d.id === S.sel)
+      .classed("vecino", (d) => vecinos.has(d.id))
+      .classed("dim", (d) => (S.q && !coincide(d, S.q)) || (S.sel && d.id !== S.sel && !vecinos.has(d.id) && !S.q));
+    current.edgesSel.classed("on", (d) => S.sel && (d.source.id === S.sel || d.target.id === S.sel));
+  }
+
+  // ---------- detalle ----------
+  function seleccionar(id) {
+    S.sel = S.sel === id ? null : id;
+    pintar(); detalle();
+    if (S.sel) $("detalle").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+  }
+  function tarjeta(clave, texto, terms) {
+    const [f, h] = clave.split(" ");
+    return `<article class="entrada"><time>${esc(lindaFecha(f))} · ${esc(h)}</time><p>${resaltar(texto, terms)}</p>
+      <button class="link" data-ir="${esc(f)}|${esc(h)}">Ver el día completo</button></article>`;
+  }
+  function detalle() {
+    const el = $("detalle");
+    if (S.vista === "diario") return diario();
+    const nodo = current.nodes.find((n) => n.id === S.sel);
+    if (!nodo) {
+      // sin selección: con búsqueda, mostrar coincidencias textuales
+      if (S.q) return resultados();
+      el.innerHTML = current.nodes.length ? `<p class="note">Tocá un ${S.vista === "conceptos" ? "concepto" : "término"} del mapa.</p>` : "";
+      return;
+    }
+    const idx = indice(), terms = termsDe(nodo);
+    const entradas = [...(nodo.raw.entradas || [])].sort().reverse();
+    let html = `<div><h2>${esc(nodo.label)}</h2><div class="meta">${entradas.length} ${entradas.length === 1 ? "pensamiento" : "pensamientos"}</div></div>`;
+    if (S.vista === "conceptos" && terms.length)
+      html += `<div><p class="label">Cómo lo dijiste</p><div class="chips">${terms.map((t) => `<span class="chip">${esc(t)}</span>`).join("")}</div></div>`;
+    const rels = current.links.filter((l) => l.source.id === nodo.id || l.target.id === nodo.id);
+    if (rels.length) {
+      html += `<div><p class="label">Se conecta con</p><div class="rel">${rels.map((l) => {
+        const o = l.source.id === nodo.id ? l.target : l.source;
+        const extra = S.vista === "conceptos" ? (l.por ? `<span>${esc(l.por)}</span>` : "") : `<span>juntos en ${l.w} pensamientos</span>`;
+        return `<div><button class="chip" data-sel="${esc(o.id)}">${esc(o.label)}</button>${extra}</div>`;
+      }).join("")}</div></div>`;
+    }
+    html += `<div><p class="label">Tus palabras, textuales</p></div>` +
+      entradas.map((k) => idx.has(k) ? tarjeta(k, idx.get(k), terms) : `<article class="entrada"><time>${esc(k)}</time><p class="note">Esta entrada todavía no se cargó en la página.</p></article>`).join("");
+    el.innerHTML = html;
+  }
+  function resultados() {
+    const idx = indice(), nq = norm(S.q), hits = [];
+    for (const [k, t] of idx) if (norm(t).includes(nq)) hits.push(k);
+    hits.sort().reverse();
+    $("detalle").innerHTML = `<p class="label">${hits.length} ${hits.length === 1 ? "pensamiento" : "pensamientos"} con “${esc(S.q)}”</p>` +
+      (hits.length ? hits.map((k) => tarjeta(k, idx.get(k), [S.q])).join("") : `<p class="note">No encontré nada sobre eso.</p>`);
+  }
+  function diario() {
+    const el = $("detalle");
+    const nq = norm(S.q);
+    const dias = [...S.dias].sort((a, b) => b.fecha.localeCompare(a.fecha));
+    if (!dias.length) { el.innerHTML = `<p class="note">Todavía no hay pensamientos cargados.</p>`; return; }
+    let total = 0;
+    const html = dias.map((d) => {
+      const es = (d.entradas || []).filter((e) => !nq || norm(e.texto).includes(nq));
+      total += es.length;
+      if (!es.length) return "";
+      return `<section class="dia"><h3>${esc(lindaFecha(d.fecha))}</h3>${es.map((e) =>
+        `<article class="entrada" id="e-${esc(d.fecha)}-${esc(e.hora.replace(":", ""))}"><time>${esc(e.hora)}</time><p>${resaltar(e.texto, S.q ? [S.q] : [])}</p></article>`).join("")}</section>`;
+    }).join("");
+    el.innerHTML = S.q && !total ? `<p class="note">No encontré nada sobre eso.</p>` : html;
+  }
+  function irA(f, h) {
+    cambiarVista("diario", false);
+    S.q = ""; $("q").value = "";
+    diario();
+    const t = document.getElementById(`e-${f}-${h.replace(":", "")}`);
+    if (t) { t.scrollIntoView({ block: "center" }); t.classList.add("flash"); setTimeout(() => t.classList.remove("flash"), 1600); }
+  }
+
+  // ---------- UI ----------
+  const EXPLICA = {
+    conceptos: "Conceptos agrupados por idea. Tocá uno para ver tus palabras textuales.",
+    palabras: "Palabras y frases que más repetís (conteo automático). Las líneas unen las que aparecen juntas.",
+    diario: "Todo lo que dijiste, textual, del más nuevo al más viejo.",
+  };
+  function cambiarVista(v, render = true) {
+    S.vista = v; S.sel = null;
+    document.querySelectorAll(".tabs button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.vista === v)));
+    $("explica").textContent = EXPLICA[v];
+    $("q").placeholder = v === "diario" ? "Buscar en el diario" : "Buscar en todo lo que dijiste";
+    try { localStorage.setItem("mapa-vista", v); } catch (e) {}
+    if (render) { dibujar(); detalle(); }
+  }
+  document.querySelector(".tabs").addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) cambiarVista(b.dataset.vista); });
+  let tq;
+  $("q").addEventListener("input", (e) => { clearTimeout(tq); tq = setTimeout(() => { S.q = e.target.value.trim(); S.sel = null; pintar(); detalle(); }, 150); });
+  $("detalle").addEventListener("click", (e) => {
+    const s = e.target.closest("[data-sel]"); if (s) return seleccionar(s.dataset.sel);
+    const i = e.target.closest("[data-ir]"); if (i) { const [f, h] = i.dataset.ir.split("|"); irA(f, h); }
+  });
+  let tr; addEventListener("resize", () => { clearTimeout(tr); tr = setTimeout(dibujar, 200); });
+
+  function estado() {
+    const n = S.dias.reduce((a, d) => a + (d.entradas || []).length, 0);
+    const act = (S.conceptos && S.conceptos.actualizado) || (S.palabras && S.palabras.generado) || "";
+    $("estado").textContent = n ? `${n} pensamientos · ${S.dias.length} ${S.dias.length === 1 ? "día" : "días"}${act ? " · actualizado " + act : ""}` : "Todavía no hay pensamientos cargados.";
+  }
+  function render() { estado(); dibujar(); detalle(); }
+
+  try { const v = localStorage.getItem("mapa-vista"); if (v && EXPLICA[v]) cambiarVista(v, false); } catch (e) {}
+  render();
+
+  // ---------- datos (db) ----------
+  (async () => {
+    let db = null;
+    try { db = (await window.claude?.use?.("db")) ?? null; } catch (e) { db = null; }
+    if (!db) { $("estado").textContent = "No pude abrir los datos en esta vista. Abrí la página desde claude.ai con tu cuenta."; $("estado").className = "note warn"; return; }
+    const listos = { c: false, p: false, d: false };
+    const timer = setTimeout(() => { if (!listos.c || !listos.p || !listos.d) { $("estado").textContent = "Los datos tardan en llegar. Puede que lo que ves no esté al día."; } }, 10000);
+    const listo = (k, snap) => { if (!snap.metadata.fromCache) listos[k] = true; if (listos.c && listos.p && listos.d) clearTimeout(timer); };
+    const err = () => { clearTimeout(timer); $("estado").textContent = "No pude cargar los datos. Probá de nuevo más tarde."; };
+    db.doc("mapa/conceptos").onSnapshot((s) => { S.conceptos = s.exists ? s.data() : null; listo("c", s); render(); }, err);
+    db.doc("mapa/palabras").onSnapshot((s) => { S.palabras = s.exists ? s.data() : null; listo("p", s); render(); }, err);
+    db.collection("dias").onSnapshot((s) => { S.dias = s.docs.map((d) => d.data()); listo("d", s); render(); }, err);
+  })();
+})();
+</script>
