@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-03 06:18",
+  "actualizado": "2026-11-13 02:37",
   "conceptos": [
     {
       "id": "yo-analitico",
@@ -12,11 +12,14 @@
         "lento",
         "minucioso",
         "viejo",
-        "largo plazo"
+        "largo plazo",
+        "analizado",
+        "paso correcto"
       ],
       "entradas": [
         "2026-11-03 03:23",
-        "2026-11-03 03:45"
+        "2026-11-03 03:45",
+        "2026-11-13 02:36"
       ]
     },
     {
@@ -67,10 +70,12 @@
         "horarios",
         "menos estimulado",
         "servicio militar",
-        "hacer un cambio"
+        "hacer un cambio",
+        "rutina"
       ],
       "entradas": [
-        "2026-11-02 23:48"
+        "2026-11-02 23:48",
+        "2026-11-13 02:36"
       ]
     },
     {
@@ -113,11 +118,15 @@
         "me he sentido bien",
         "motivado",
         "me siento mejor",
-        "estar dentro de todo bien"
+        "estar dentro de todo bien",
+        "días buenos",
+        "semanas buenas",
+        "afuera de mi mente"
       ],
       "entradas": [
         "2026-11-02 23:48",
-        "2026-11-03 03:45"
+        "2026-11-03 03:45",
+        "2026-11-13 02:36"
       ]
     },
     {
@@ -195,12 +204,14 @@
       "variantes": [
         "chat de pensamientos",
         "repositorio",
-        "guardar mis pensamientos"
+        "guardar mis pensamientos",
+        "no registro nada acá"
       ],
       "entradas": [
         "2026-11-02 23:44",
         "2026-11-02 23:45",
-        "2026-11-03 03:45"
+        "2026-11-03 03:45",
+        "2026-11-13 02:36"
       ]
     },
     {
@@ -256,6 +267,118 @@
       ],
       "entradas": [
         "2026-11-03 06:17"
+      ]
+    },
+    {
+      "id": "miedo",
+      "nombre": "Este miedo",
+      "variantes": [
+        "este miedo",
+        "miedo",
+        "me da miedo",
+        "qué cagazo",
+        "un miedo acompañado de nada",
+        "crear situaciones",
+        "pequeño disconfort",
+        "no siempre hay que estar preparado"
+      ],
+      "entradas": [
+        "2026-11-13 02:36"
+      ]
+    },
+    {
+      "id": "control-preparado",
+      "nombre": "Tener todo bajo control / estar preparado",
+      "variantes": [
+        "tener todo bajo control",
+        "no poder delegar",
+        "haberlo analizado",
+        "estar preparado",
+        "dar el paso correcto"
+      ],
+      "entradas": [
+        "2026-11-13 02:36"
+      ]
+    },
+    {
+      "id": "sorpresa-rutina",
+      "nombre": "Sorpresa vs. rutina",
+      "variantes": [
+        "sorpresa",
+        "rutina",
+        "no me llevo muy bien con la rutina",
+        "qué linda que es la vida con sorpresa",
+        "sorprenderse"
+      ],
+      "entradas": [
+        "2026-11-13 02:36"
+      ]
+    },
+    {
+      "id": "psicologo-cap",
+      "nombre": "El CAP y su psicóloga / mi psicólogo",
+      "variantes": [
+        "el CAP",
+        "su psicóloga",
+        "mi psicólogo",
+        "psicólogo"
+      ],
+      "entradas": [
+        "2026-11-13 02:36"
+      ]
+    },
+    {
+      "id": "abejita",
+      "nombre": "La abejita (pileta)",
+      "variantes": [
+        "abejita",
+        "abeja muerta",
+        "agarrar esa abejita",
+        "bichos",
+        "asco",
+        "pileta"
+      ],
+      "entradas": [
+        "2026-11-13 02:36"
+      ]
+    },
+    {
+      "id": "mama",
+      "nombre": "Mi mamá",
+      "variantes": [
+        "mi vieja",
+        "mi mamá",
+        "madre"
+      ],
+      "entradas": [
+        "2026-11-13 02:36"
+      ]
+    },
+    {
+      "id": "papa",
+      "nombre": "Mi papá",
+      "variantes": [
+        "papá",
+        "mi papá",
+        "padre",
+        "a los 13 años",
+        "no tuve a nadie para hablar"
+      ],
+      "entradas": [
+        "2026-11-13 02:36"
+      ]
+    },
+    {
+      "id": "animarse-solo",
+      "nombre": "Animarme / tocar la puerta yo solo",
+      "variantes": [
+        "ahora me toca a mí",
+        "me animé",
+        "tocar más la puerta yo solo",
+        "sin saber qué va a haber detrás"
+      ],
+      "entradas": [
+        "2026-11-13 02:36"
       ]
     }
   ],
@@ -369,6 +492,71 @@
       "a": "luquitas",
       "b": "ritual",
       "por": "Lo dijiste: \"También me acabo de acordar que soñé\" (06:17), misma noche de sueño"
+    },
+    {
+      "a": "animo",
+      "b": "miedo",
+      "por": "Mismo pensamiento: semanas buenas y reconocer este miedo (02:36)"
+    },
+    {
+      "a": "registrar-pensamientos",
+      "b": "animo",
+      "por": "Mismo pensamiento (02:36)"
+    },
+    {
+      "a": "miedo",
+      "b": "control-preparado",
+      "por": "Mismo pensamiento (02:36)"
+    },
+    {
+      "a": "miedo",
+      "b": "abejita",
+      "por": "Lo dijiste: \"Me da miedo\" al tocar la abejita (02:36)"
+    },
+    {
+      "a": "control-preparado",
+      "b": "psicologo-cap",
+      "por": "Lo dijiste: lo que el CAP habló con su psicóloga sobre tener todo bajo control (02:36)"
+    },
+    {
+      "a": "control-preparado",
+      "b": "yo-analitico",
+      "por": "Comparten la palabra analizado/analítico"
+    },
+    {
+      "a": "sorpresa-rutina",
+      "b": "psicologo-cap",
+      "por": "Lo que le dijo la psicóloga al CAP sobre la sorpresa (02:36)"
+    },
+    {
+      "a": "sorpresa-rutina",
+      "b": "horarios-estimulo",
+      "por": "Mismo tema: rutina / horarios (02:36)"
+    },
+    {
+      "a": "abejita",
+      "b": "mama",
+      "por": "Mismo pensamiento: tuvo que venir tu mamá (02:36)"
+    },
+    {
+      "a": "abejita",
+      "b": "animarse-solo",
+      "por": "Lo dijiste: \"ahora me toca a mí\" (02:36)"
+    },
+    {
+      "a": "abejita",
+      "b": "papa",
+      "por": "Mismo pensamiento: nadie que te muestre que la abejita no te mata (02:36)"
+    },
+    {
+      "a": "papa",
+      "b": "mama",
+      "por": "Los nombraste juntos (02:36)"
+    },
+    {
+      "a": "papa",
+      "b": "animarse-solo",
+      "por": "Lo dijiste: \"es un poco hora de empezar a tocar más la puerta yo solo\" (02:36)"
     }
   ]
 }

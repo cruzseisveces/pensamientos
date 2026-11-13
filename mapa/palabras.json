@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-03 06:20",
- "total_entradas": 14,
+ "generado": "2026-11-13 02:36",
+ "total_entradas": 15,
  "terminos": [
   {
    "id": "sueno",
@@ -38,6 +38,17 @@
    ]
   },
   {
+   "id": "haber",
+   "t": "haber",
+   "n": 4,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29",
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
    "id": "mejor",
    "t": "mejor",
    "n": 4,
@@ -49,13 +60,13 @@
    ]
   },
   {
-   "id": "haber",
-   "t": "haber",
+   "id": "menos",
+   "t": "menos",
    "n": 3,
    "entradas": [
-    "2026-11-03 03:23",
-    "2026-11-03 03:29",
-    "2026-11-03 06:17"
+    "2026-11-02 23:48",
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
    ]
   },
   {
@@ -86,6 +97,16 @@
     "2026-11-02 23:48",
     "2026-11-03 03:23",
     "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "recuerdo",
+   "t": "recuerdo",
+   "n": 3,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29",
+    "2026-11-13 02:36"
    ]
   },
   {
@@ -135,12 +156,30 @@
    ]
   },
   {
+   "id": "anos",
+   "t": "años",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:45",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
    "id": "chaman",
    "t": "chamán",
    "n": 2,
    "entradas": [
     "2026-11-03 03:23",
     "2026-11-03 03:45"
+   ]
+  },
+  {
+   "id": "decia",
+   "t": "decía",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
    ]
   },
   {
@@ -153,12 +192,39 @@
    ]
   },
   {
+   "id": "dias",
+   "t": "días",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
    "id": "dormir",
    "t": "dormir",
    "n": 2,
    "entradas": [
     "2026-11-02 23:55",
     "2026-11-03 03:23"
+   ]
+  },
+  {
+   "id": "durante",
+   "t": "durante",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:29",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "empezar",
+   "t": "empezar",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-13 02:36"
    ]
   },
   {
@@ -171,6 +237,15 @@
    ]
   },
   {
+   "id": "encontrar",
+   "t": "encontrar",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:45",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
    "id": "entender",
    "t": "entender",
    "n": 2,
@@ -180,12 +255,30 @@
    ]
   },
   {
+   "id": "entiendo",
+   "t": "entiendo",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
    "id": "fondo",
    "t": "fondo",
    "n": 2,
    "entradas": [
     "2026-11-03 03:35",
     "2026-11-03 06:17"
+   ]
+  },
+  {
+   "id": "gustaria",
+   "t": "gustaría",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-13 02:36"
    ]
   },
   {
@@ -216,12 +309,39 @@
    ]
   },
   {
-   "id": "menos",
-   "t": "menos",
+   "id": "llevo",
+   "t": "llevo",
    "n": 2,
    "entradas": [
-    "2026-11-02 23:48",
-    "2026-11-03 06:17"
+    "2026-11-02 23:55",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "loco",
+   "t": "loco",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "lugar",
+   "t": "lugar",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "malo",
+   "t": "malo",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:35",
+    "2026-11-13 02:36"
    ]
   },
   {
@@ -270,17 +390,80 @@
    ]
   },
   {
-   "id": "razon",
-   "t": "razón",
+   "id": "persona",
+   "t": "persona",
    "n": 2,
    "entradas": [
-    "2026-11-03 03:23",
-    "2026-11-03 03:29"
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
    ]
   },
   {
-   "id": "recuerdo",
-   "t": "recuerdo",
+   "id": "presente",
+   "t": "presente",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:45",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "primero",
+   "t": "primero",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "pueda",
+   "t": "pueda",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:18",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "puse",
+   "t": "puse",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "querer",
+   "t": "querer",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "quizas",
+   "t": "quizás",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "raro",
+   "t": "raro",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:55",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "razon",
+   "t": "razón",
    "n": 2,
    "entradas": [
     "2026-11-03 03:23",
@@ -297,12 +480,57 @@
    ]
   },
   {
+   "id": "semanas",
+   "t": "semanas",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
    "id": "telefono",
    "t": "teléfono",
    "n": 2,
    "entradas": [
     "2026-11-03 03:23",
     "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "tiempo",
+   "t": "tiempo",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "tiro",
+   "t": "tiro",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "toque",
+   "t": "toque",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "vida",
+   "t": "vida",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
    ]
   }
  ],
@@ -331,6 +559,46 @@
    "desperte",
    "ritual",
    3
+  ],
+  [
+   "haber",
+   "recuerdo",
+   3
+  ],
+  [
+   "dias",
+   "gustaria",
+   2
+  ],
+  [
+   "dias",
+   "menos",
+   2
+  ],
+  [
+   "dias",
+   "semanas",
+   2
+  ],
+  [
+   "dias",
+   "tiempo",
+   2
+  ],
+  [
+   "gustaria",
+   "menos",
+   2
+  ],
+  [
+   "gustaria",
+   "semanas",
+   2
+  ],
+  [
+   "gustaria",
+   "tiempo",
+   2
   ],
   [
    "mejor",
@@ -363,8 +631,23 @@
    2
   ],
   [
+   "menos",
+   "semanas",
+   2
+  ],
+  [
+   "menos",
+   "tiempo",
+   2
+  ],
+  [
    "mover",
    "pensaba",
+   2
+  ],
+  [
+   "semanas",
+   "tiempo",
    2
   ],
   [
@@ -385,6 +668,11 @@
   [
    "irme a dormir",
    "sueno",
+   2
+  ],
+  [
+   "llevo",
+   "raro",
    2
   ],
   [
@@ -683,6 +971,26 @@
    2
   ],
   [
+   "empezar",
+   "haber",
+   2
+  ],
+  [
+   "empezar",
+   "primero",
+   2
+  ],
+  [
+   "empezar",
+   "puse",
+   2
+  ],
+  [
+   "empezar",
+   "recuerdo",
+   2
+  ],
+  [
    "haber",
    "mejor",
    2
@@ -694,16 +1002,21 @@
   ],
   [
    "haber",
+   "primero",
+   2
+  ],
+  [
+   "haber",
+   "puse",
+   2
+  ],
+  [
+   "haber",
    "razon",
    2
   ],
   [
    "haber",
-   "recuerdo",
-   2
-  ],
-  [
-   "haber",
    "remera",
    2
   ],
@@ -813,6 +1126,21 @@
    2
   ],
   [
+   "primero",
+   "puse",
+   2
+  ],
+  [
+   "primero",
+   "recuerdo",
+   2
+  ],
+  [
+   "puse",
+   "recuerdo",
+   2
+  ],
+  [
    "razon",
    "recuerdo",
    2
@@ -855,11 +1183,366 @@
   [
    "sueno",
    "telefono",
+   2
+  ],
+  [
+   "durante",
+   "haber",
+   2
+  ],
+  [
+   "durante",
+   "recuerdo",
+   2
+  ],
+  [
+   "anos",
+   "encontrar",
+   2
+  ],
+  [
+   "anos",
+   "presente",
+   2
+  ],
+  [
+   "encontrar",
+   "presente",
    2
   ],
   [
    "entender",
    "mejor",
+   2
+  ],
+  [
+   "decia",
+   "entiendo",
+   2
+  ],
+  [
+   "decia",
+   "haber",
+   2
+  ],
+  [
+   "decia",
+   "loco",
+   2
+  ],
+  [
+   "decia",
+   "lugar",
+   2
+  ],
+  [
+   "decia",
+   "menos",
+   2
+  ],
+  [
+   "decia",
+   "persona",
+   2
+  ],
+  [
+   "decia",
+   "querer",
+   2
+  ],
+  [
+   "decia",
+   "quizas",
+   2
+  ],
+  [
+   "decia",
+   "tiro",
+   2
+  ],
+  [
+   "decia",
+   "toque",
+   2
+  ],
+  [
+   "decia",
+   "vida",
+   2
+  ],
+  [
+   "entiendo",
+   "haber",
+   2
+  ],
+  [
+   "entiendo",
+   "loco",
+   2
+  ],
+  [
+   "entiendo",
+   "lugar",
+   2
+  ],
+  [
+   "entiendo",
+   "menos",
+   2
+  ],
+  [
+   "entiendo",
+   "persona",
+   2
+  ],
+  [
+   "entiendo",
+   "querer",
+   2
+  ],
+  [
+   "entiendo",
+   "quizas",
+   2
+  ],
+  [
+   "entiendo",
+   "tiro",
+   2
+  ],
+  [
+   "entiendo",
+   "toque",
+   2
+  ],
+  [
+   "entiendo",
+   "vida",
+   2
+  ],
+  [
+   "haber",
+   "loco",
+   2
+  ],
+  [
+   "haber",
+   "lugar",
+   2
+  ],
+  [
+   "haber",
+   "menos",
+   2
+  ],
+  [
+   "haber",
+   "persona",
+   2
+  ],
+  [
+   "haber",
+   "querer",
+   2
+  ],
+  [
+   "haber",
+   "quizas",
+   2
+  ],
+  [
+   "haber",
+   "tiro",
+   2
+  ],
+  [
+   "haber",
+   "toque",
+   2
+  ],
+  [
+   "haber",
+   "vida",
+   2
+  ],
+  [
+   "loco",
+   "lugar",
+   2
+  ],
+  [
+   "loco",
+   "menos",
+   2
+  ],
+  [
+   "loco",
+   "persona",
+   2
+  ],
+  [
+   "loco",
+   "querer",
+   2
+  ],
+  [
+   "loco",
+   "quizas",
+   2
+  ],
+  [
+   "loco",
+   "tiro",
+   2
+  ],
+  [
+   "loco",
+   "toque",
+   2
+  ],
+  [
+   "loco",
+   "vida",
+   2
+  ],
+  [
+   "lugar",
+   "menos",
+   2
+  ],
+  [
+   "lugar",
+   "persona",
+   2
+  ],
+  [
+   "lugar",
+   "querer",
+   2
+  ],
+  [
+   "lugar",
+   "quizas",
+   2
+  ],
+  [
+   "lugar",
+   "tiro",
+   2
+  ],
+  [
+   "lugar",
+   "toque",
+   2
+  ],
+  [
+   "lugar",
+   "vida",
+   2
+  ],
+  [
+   "menos",
+   "persona",
+   2
+  ],
+  [
+   "menos",
+   "querer",
+   2
+  ],
+  [
+   "menos",
+   "quizas",
+   2
+  ],
+  [
+   "menos",
+   "tiro",
+   2
+  ],
+  [
+   "menos",
+   "toque",
+   2
+  ],
+  [
+   "menos",
+   "vida",
+   2
+  ],
+  [
+   "persona",
+   "querer",
+   2
+  ],
+  [
+   "persona",
+   "quizas",
+   2
+  ],
+  [
+   "persona",
+   "tiro",
+   2
+  ],
+  [
+   "persona",
+   "toque",
+   2
+  ],
+  [
+   "persona",
+   "vida",
+   2
+  ],
+  [
+   "querer",
+   "quizas",
+   2
+  ],
+  [
+   "querer",
+   "tiro",
+   2
+  ],
+  [
+   "querer",
+   "toque",
+   2
+  ],
+  [
+   "querer",
+   "vida",
+   2
+  ],
+  [
+   "quizas",
+   "tiro",
+   2
+  ],
+  [
+   "quizas",
+   "toque",
+   2
+  ],
+  [
+   "quizas",
+   "vida",
+   2
+  ],
+  [
+   "tiro",
+   "toque",
+   2
+  ],
+  [
+   "tiro",
+   "vida",
+   2
+  ],
+  [
+   "toque",
+   "vida",
    2
   ]
  ]
