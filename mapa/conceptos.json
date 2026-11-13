@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-13 04:26",
+  "actualizado": "2026-11-13 04:50",
   "conceptos": [
     {
       "entradas": [
@@ -344,14 +344,16 @@
     },
     {
       "entradas": [
-        "2026-11-13 02:36"
+        "2026-11-13 02:36",
+        "2026-11-13 04:49"
       ],
       "id": "mama",
       "nombre": "Mi mamá",
       "variantes": [
         "mi vieja",
         "mi mamá",
-        "madre"
+        "madre",
+        "todo es una ilusión"
       ]
     },
     {
@@ -392,10 +394,27 @@
         "una pintura no es solo la pintura",
         "el arte es contexto",
         "quienes lo están compartiendo",
-        "comunicar aura"
+        "comunicar aura",
+        "sin un contexto",
+        "todo lo que hay detrás",
+        "no tienen mucho sentido por sí solas"
       ],
       "entradas": [
-        "2026-11-13 04:25"
+        "2026-11-13 04:25",
+        "2026-11-13 04:49"
+      ]
+    },
+    {
+      "id": "marketing",
+      "nombre": "El marketing y la profundidad de las cosas",
+      "variantes": [
+        "marketing",
+        "la profundidad de las cosas",
+        "todo lo que hay detrás de que algo te parezca lo que es",
+        "por qué elegimos una prenda de ropa"
+      ],
+      "entradas": [
+        "2026-11-13 04:49"
       ]
     }
   ],
@@ -579,6 +598,16 @@
       "a": "aura-contexto",
       "b": "musica",
       "por": "Lo dijiste: \"un dj set no es solo la música\" (04:25)"
+    },
+    {
+      "a": "marketing",
+      "b": "aura-contexto",
+      "por": "Lo dijiste: \"las cosas no tienen mucho sentido por sí solas sin un contexto\" (04:49)"
+    },
+    {
+      "a": "mama",
+      "b": "aura-contexto",
+      "por": "Lo dijiste: \"hoy mi vieja me dijo tmb eso, todo es una ilusión\" (04:49)"
     }
   ]
 }
