@@ -1,7 +1,94 @@
 {
- "generado": "2026-11-03 04:24",
- "total_entradas": 7,
+ "generado": "2026-11-13 04:26",
+ "total_entradas": 16,
  "terminos": [
+  {
+   "id": "sueno",
+   "t": "sueño",
+   "n": 6,
+   "entradas": [
+    "2026-11-02 23:55",
+    "2026-11-03 03:23",
+    "2026-11-03 03:27",
+    "2026-11-03 03:35",
+    "2026-11-03 06:18",
+    "2026-11-03 06:19"
+   ]
+  },
+  {
+   "id": "cerrar",
+   "t": "cerrar",
+   "n": 4,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29",
+    "2026-11-03 03:31",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "desperte",
+   "t": "desperté",
+   "n": 4,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29",
+    "2026-11-03 03:31",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "haber",
+   "t": "haber",
+   "n": 4,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29",
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "mejor",
+   "t": "mejor",
+   "n": 4,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-03 03:23",
+    "2026-11-03 03:45",
+    "2026-11-03 06:17"
+   ]
+  },
+  {
+   "id": "menos",
+   "t": "menos",
+   "n": 3,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "musica",
+   "t": "música",
+   "n": 3,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-02 23:55",
+    "2026-11-13 04:25"
+   ]
+  },
+  {
+   "id": "numero",
+   "t": "número",
+   "n": 3,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:31",
+    "2026-11-03 03:35"
+   ]
+  },
   {
    "id": "pensamientos",
    "t": "pensamientos",
@@ -9,7 +96,56 @@
    "entradas": [
     "2026-11-02 23:44",
     "2026-11-02 23:45",
-    "2026-11-03 04:23"
+    "2026-11-03 03:45"
+   ]
+  },
+  {
+   "id": "poner",
+   "t": "poner",
+   "n": 3,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-03 03:23",
+    "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "pueda",
+   "t": "pueda",
+   "n": 3,
+   "entradas": [
+    "2026-11-03 06:18",
+    "2026-11-13 02:36",
+    "2026-11-13 04:25"
+   ]
+  },
+  {
+   "id": "recuerdo",
+   "t": "recuerdo",
+   "n": 3,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "ritual",
+   "t": "ritual",
+   "n": 3,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "abierto",
+   "t": "abierto",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:35"
    ]
   },
   {
@@ -18,16 +154,70 @@
    "n": 2,
    "entradas": [
     "2026-11-03 03:23",
-    "2026-11-03 04:23"
+    "2026-11-03 03:29"
    ]
   },
   {
-   "id": "chat",
-   "t": "chat",
+   "id": "almohada",
+   "t": "almohada",
    "n": 2,
    "entradas": [
-    "2026-11-02 23:44",
-    "2026-11-03 04:23"
+    "2026-11-03 03:23",
+    "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "amigos",
+   "t": "amigos",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 06:17"
+   ]
+  },
+  {
+   "id": "anos",
+   "t": "años",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:45",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "chaman",
+   "t": "chamán",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:45"
+   ]
+  },
+  {
+   "id": "decia",
+   "t": "decía",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "dejar",
+   "t": "dejar",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "dias",
+   "t": "días",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-13 02:36"
    ]
   },
   {
@@ -37,6 +227,87 @@
    "entradas": [
     "2026-11-02 23:55",
     "2026-11-03 03:23"
+   ]
+  },
+  {
+   "id": "durante",
+   "t": "durante",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:29",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "empezar",
+   "t": "empezar",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "encontraba",
+   "t": "encontraba",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:31",
+    "2026-11-03 06:17"
+   ]
+  },
+  {
+   "id": "encontrar",
+   "t": "encontrar",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:45",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "encuentro",
+   "t": "encuentro",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:55",
+    "2026-11-13 04:25"
+   ]
+  },
+  {
+   "id": "entender",
+   "t": "entender",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:45",
+    "2026-11-03 06:17"
+   ]
+  },
+  {
+   "id": "entiendo",
+   "t": "entiendo",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "fondo",
+   "t": "fondo",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:35",
+    "2026-11-03 06:17"
+   ]
+  },
+  {
+   "id": "gustaria",
+   "t": "gustaría",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-13 02:36"
    ]
   },
   {
@@ -58,46 +329,345 @@
    ]
   },
   {
-   "id": "mejor",
-   "t": "mejor",
+   "id": "llamando",
+   "t": "llamando",
    "n": 2,
    "entradas": [
-    "2026-11-02 23:48",
-    "2026-11-03 03:23"
+    "2026-11-03 03:23",
+    "2026-11-03 03:35"
    ]
   },
   {
-   "id": "musica",
-   "t": "música",
-   "n": 2,
-   "entradas": [
-    "2026-11-02 23:48",
-    "2026-11-02 23:55"
-   ]
-  },
-  {
-   "id": "poner",
-   "t": "poner",
-   "n": 2,
-   "entradas": [
-    "2026-11-02 23:48",
-    "2026-11-03 03:23"
-   ]
-  },
-  {
-   "id": "sueno",
-   "t": "sueño",
+   "id": "llevo",
+   "t": "llevo",
    "n": 2,
    "entradas": [
     "2026-11-02 23:55",
-    "2026-11-03 03:23"
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "loco",
+   "t": "loco",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "lugar",
+   "t": "lugar",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "malo",
+   "t": "malo",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:35",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "mostrar",
+   "t": "mostrar",
+   "n": 2,
+   "entradas": [
+    "2026-11-13 02:36",
+    "2026-11-13 04:25"
+   ]
+  },
+  {
+   "id": "mover",
+   "t": "mover",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-03 06:17"
+   ]
+  },
+  {
+   "id": "numero de telefono",
+   "t": "número de teléfono",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "ouija",
+   "t": "ouija",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "pensaba",
+   "t": "pensaba",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-03 06:17"
+   ]
+  },
+  {
+   "id": "persona",
+   "t": "persona",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "presente",
+   "t": "presente",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:45",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "primero",
+   "t": "primero",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "puse",
+   "t": "puse",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "querer",
+   "t": "querer",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "quizas",
+   "t": "quizás",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "raro",
+   "t": "raro",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:55",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "razon",
+   "t": "razón",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "remera",
+   "t": "remera",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "semanas",
+   "t": "semanas",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "telefono",
+   "t": "teléfono",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:35"
+   ]
+  },
+  {
+   "id": "tiempo",
+   "t": "tiempo",
+   "n": 2,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "tiro",
+   "t": "tiro",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "toque",
+   "t": "toque",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "vida",
+   "t": "vida",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36"
    ]
   }
  ],
  "pares": [
   [
+   "cerrar",
+   "desperte",
+   4
+  ],
+  [
+   "cerrar",
+   "numero",
+   3
+  ],
+  [
+   "cerrar",
+   "ritual",
+   3
+  ],
+  [
+   "desperte",
+   "numero",
+   3
+  ],
+  [
+   "desperte",
+   "ritual",
+   3
+  ],
+  [
+   "haber",
+   "recuerdo",
+   3
+  ],
+  [
+   "dias",
+   "gustaria",
+   2
+  ],
+  [
+   "dias",
+   "menos",
+   2
+  ],
+  [
+   "dias",
+   "semanas",
+   2
+  ],
+  [
+   "dias",
+   "tiempo",
+   2
+  ],
+  [
+   "gustaria",
+   "menos",
+   2
+  ],
+  [
+   "gustaria",
+   "semanas",
+   2
+  ],
+  [
+   "gustaria",
+   "tiempo",
+   2
+  ],
+  [
+   "mejor",
+   "menos",
+   2
+  ],
+  [
+   "mejor",
+   "mover",
+   2
+  ],
+  [
+   "mejor",
+   "pensaba",
+   2
+  ],
+  [
    "mejor",
    "poner",
+   2
+  ],
+  [
+   "menos",
+   "mover",
+   2
+  ],
+  [
+   "menos",
+   "pensaba",
+   2
+  ],
+  [
+   "menos",
+   "semanas",
+   2
+  ],
+  [
+   "menos",
+   "tiempo",
+   2
+  ],
+  [
+   "mover",
+   "pensaba",
+   2
+  ],
+  [
+   "semanas",
+   "tiempo",
    2
   ],
   [
@@ -108,6 +678,11 @@
   [
    "dormir",
    "sueno",
+   2
+  ],
+  [
+   "encuentro",
+   "musica",
    2
   ],
   [
@@ -118,6 +693,886 @@
   [
    "irme a dormir",
    "sueno",
+   2
+  ],
+  [
+   "llevo",
+   "raro",
+   2
+  ],
+  [
+   "abierto",
+   "cerrar",
+   2
+  ],
+  [
+   "abierto",
+   "dejar",
+   2
+  ],
+  [
+   "abierto",
+   "desperte",
+   2
+  ],
+  [
+   "abierto",
+   "llamando",
+   2
+  ],
+  [
+   "abierto",
+   "numero",
+   2
+  ],
+  [
+   "abierto",
+   "numero de telefono",
+   2
+  ],
+  [
+   "abierto",
+   "ouija",
+   2
+  ],
+  [
+   "abierto",
+   "ritual",
+   2
+  ],
+  [
+   "abierto",
+   "sueno",
+   2
+  ],
+  [
+   "abierto",
+   "telefono",
+   2
+  ],
+  [
+   "abrir",
+   "almohada",
+   2
+  ],
+  [
+   "abrir",
+   "cerrar",
+   2
+  ],
+  [
+   "abrir",
+   "desperte",
+   2
+  ],
+  [
+   "abrir",
+   "haber",
+   2
+  ],
+  [
+   "abrir",
+   "poner",
+   2
+  ],
+  [
+   "abrir",
+   "razon",
+   2
+  ],
+  [
+   "abrir",
+   "recuerdo",
+   2
+  ],
+  [
+   "abrir",
+   "remera",
+   2
+  ],
+  [
+   "abrir",
+   "ritual",
+   2
+  ],
+  [
+   "almohada",
+   "cerrar",
+   2
+  ],
+  [
+   "almohada",
+   "desperte",
+   2
+  ],
+  [
+   "almohada",
+   "haber",
+   2
+  ],
+  [
+   "almohada",
+   "poner",
+   2
+  ],
+  [
+   "almohada",
+   "razon",
+   2
+  ],
+  [
+   "almohada",
+   "recuerdo",
+   2
+  ],
+  [
+   "almohada",
+   "remera",
+   2
+  ],
+  [
+   "almohada",
+   "ritual",
+   2
+  ],
+  [
+   "amigos",
+   "haber",
+   2
+  ],
+  [
+   "amigos",
+   "mejor",
+   2
+  ],
+  [
+   "cerrar",
+   "dejar",
+   2
+  ],
+  [
+   "cerrar",
+   "haber",
+   2
+  ],
+  [
+   "cerrar",
+   "llamando",
+   2
+  ],
+  [
+   "cerrar",
+   "numero de telefono",
+   2
+  ],
+  [
+   "cerrar",
+   "ouija",
+   2
+  ],
+  [
+   "cerrar",
+   "poner",
+   2
+  ],
+  [
+   "cerrar",
+   "razon",
+   2
+  ],
+  [
+   "cerrar",
+   "recuerdo",
+   2
+  ],
+  [
+   "cerrar",
+   "remera",
+   2
+  ],
+  [
+   "cerrar",
+   "sueno",
+   2
+  ],
+  [
+   "cerrar",
+   "telefono",
+   2
+  ],
+  [
+   "chaman",
+   "mejor",
+   2
+  ],
+  [
+   "dejar",
+   "desperte",
+   2
+  ],
+  [
+   "dejar",
+   "llamando",
+   2
+  ],
+  [
+   "dejar",
+   "numero",
+   2
+  ],
+  [
+   "dejar",
+   "numero de telefono",
+   2
+  ],
+  [
+   "dejar",
+   "ouija",
+   2
+  ],
+  [
+   "dejar",
+   "ritual",
+   2
+  ],
+  [
+   "dejar",
+   "sueno",
+   2
+  ],
+  [
+   "dejar",
+   "telefono",
+   2
+  ],
+  [
+   "desperte",
+   "haber",
+   2
+  ],
+  [
+   "desperte",
+   "llamando",
+   2
+  ],
+  [
+   "desperte",
+   "numero de telefono",
+   2
+  ],
+  [
+   "desperte",
+   "ouija",
+   2
+  ],
+  [
+   "desperte",
+   "poner",
+   2
+  ],
+  [
+   "desperte",
+   "razon",
+   2
+  ],
+  [
+   "desperte",
+   "recuerdo",
+   2
+  ],
+  [
+   "desperte",
+   "remera",
+   2
+  ],
+  [
+   "desperte",
+   "sueno",
+   2
+  ],
+  [
+   "desperte",
+   "telefono",
+   2
+  ],
+  [
+   "empezar",
+   "haber",
+   2
+  ],
+  [
+   "empezar",
+   "primero",
+   2
+  ],
+  [
+   "empezar",
+   "puse",
+   2
+  ],
+  [
+   "empezar",
+   "recuerdo",
+   2
+  ],
+  [
+   "haber",
+   "mejor",
+   2
+  ],
+  [
+   "haber",
+   "poner",
+   2
+  ],
+  [
+   "haber",
+   "primero",
+   2
+  ],
+  [
+   "haber",
+   "puse",
+   2
+  ],
+  [
+   "haber",
+   "razon",
+   2
+  ],
+  [
+   "haber",
+   "remera",
+   2
+  ],
+  [
+   "haber",
+   "ritual",
+   2
+  ],
+  [
+   "llamando",
+   "numero",
+   2
+  ],
+  [
+   "llamando",
+   "numero de telefono",
+   2
+  ],
+  [
+   "llamando",
+   "ouija",
+   2
+  ],
+  [
+   "llamando",
+   "ritual",
+   2
+  ],
+  [
+   "llamando",
+   "sueno",
+   2
+  ],
+  [
+   "llamando",
+   "telefono",
+   2
+  ],
+  [
+   "numero",
+   "ouija",
+   2
+  ],
+  [
+   "numero",
+   "ritual",
+   2
+  ],
+  [
+   "numero",
+   "sueno",
+   2
+  ],
+  [
+   "numero",
+   "telefono",
+   2
+  ],
+  [
+   "numero de telefono",
+   "ouija",
+   2
+  ],
+  [
+   "numero de telefono",
+   "ritual",
+   2
+  ],
+  [
+   "numero de telefono",
+   "sueno",
+   2
+  ],
+  [
+   "ouija",
+   "ritual",
+   2
+  ],
+  [
+   "ouija",
+   "sueno",
+   2
+  ],
+  [
+   "ouija",
+   "telefono",
+   2
+  ],
+  [
+   "poner",
+   "razon",
+   2
+  ],
+  [
+   "poner",
+   "recuerdo",
+   2
+  ],
+  [
+   "poner",
+   "remera",
+   2
+  ],
+  [
+   "poner",
+   "ritual",
+   2
+  ],
+  [
+   "primero",
+   "puse",
+   2
+  ],
+  [
+   "primero",
+   "recuerdo",
+   2
+  ],
+  [
+   "puse",
+   "recuerdo",
+   2
+  ],
+  [
+   "razon",
+   "recuerdo",
+   2
+  ],
+  [
+   "razon",
+   "remera",
+   2
+  ],
+  [
+   "razon",
+   "ritual",
+   2
+  ],
+  [
+   "recuerdo",
+   "remera",
+   2
+  ],
+  [
+   "recuerdo",
+   "ritual",
+   2
+  ],
+  [
+   "remera",
+   "ritual",
+   2
+  ],
+  [
+   "ritual",
+   "sueno",
+   2
+  ],
+  [
+   "ritual",
+   "telefono",
+   2
+  ],
+  [
+   "sueno",
+   "telefono",
+   2
+  ],
+  [
+   "durante",
+   "haber",
+   2
+  ],
+  [
+   "durante",
+   "recuerdo",
+   2
+  ],
+  [
+   "anos",
+   "encontrar",
+   2
+  ],
+  [
+   "anos",
+   "presente",
+   2
+  ],
+  [
+   "encontrar",
+   "presente",
+   2
+  ],
+  [
+   "entender",
+   "mejor",
+   2
+  ],
+  [
+   "decia",
+   "entiendo",
+   2
+  ],
+  [
+   "decia",
+   "haber",
+   2
+  ],
+  [
+   "decia",
+   "loco",
+   2
+  ],
+  [
+   "decia",
+   "lugar",
+   2
+  ],
+  [
+   "decia",
+   "menos",
+   2
+  ],
+  [
+   "decia",
+   "persona",
+   2
+  ],
+  [
+   "decia",
+   "querer",
+   2
+  ],
+  [
+   "decia",
+   "quizas",
+   2
+  ],
+  [
+   "decia",
+   "tiro",
+   2
+  ],
+  [
+   "decia",
+   "toque",
+   2
+  ],
+  [
+   "decia",
+   "vida",
+   2
+  ],
+  [
+   "entiendo",
+   "haber",
+   2
+  ],
+  [
+   "entiendo",
+   "loco",
+   2
+  ],
+  [
+   "entiendo",
+   "lugar",
+   2
+  ],
+  [
+   "entiendo",
+   "menos",
+   2
+  ],
+  [
+   "entiendo",
+   "persona",
+   2
+  ],
+  [
+   "entiendo",
+   "querer",
+   2
+  ],
+  [
+   "entiendo",
+   "quizas",
+   2
+  ],
+  [
+   "entiendo",
+   "tiro",
+   2
+  ],
+  [
+   "entiendo",
+   "toque",
+   2
+  ],
+  [
+   "entiendo",
+   "vida",
+   2
+  ],
+  [
+   "haber",
+   "loco",
+   2
+  ],
+  [
+   "haber",
+   "lugar",
+   2
+  ],
+  [
+   "haber",
+   "menos",
+   2
+  ],
+  [
+   "haber",
+   "persona",
+   2
+  ],
+  [
+   "haber",
+   "querer",
+   2
+  ],
+  [
+   "haber",
+   "quizas",
+   2
+  ],
+  [
+   "haber",
+   "tiro",
+   2
+  ],
+  [
+   "haber",
+   "toque",
+   2
+  ],
+  [
+   "haber",
+   "vida",
+   2
+  ],
+  [
+   "loco",
+   "lugar",
+   2
+  ],
+  [
+   "loco",
+   "menos",
+   2
+  ],
+  [
+   "loco",
+   "persona",
+   2
+  ],
+  [
+   "loco",
+   "querer",
+   2
+  ],
+  [
+   "loco",
+   "quizas",
+   2
+  ],
+  [
+   "loco",
+   "tiro",
+   2
+  ],
+  [
+   "loco",
+   "toque",
+   2
+  ],
+  [
+   "loco",
+   "vida",
+   2
+  ],
+  [
+   "lugar",
+   "menos",
+   2
+  ],
+  [
+   "lugar",
+   "persona",
+   2
+  ],
+  [
+   "lugar",
+   "querer",
+   2
+  ],
+  [
+   "lugar",
+   "quizas",
+   2
+  ],
+  [
+   "lugar",
+   "tiro",
+   2
+  ],
+  [
+   "lugar",
+   "toque",
+   2
+  ],
+  [
+   "lugar",
+   "vida",
+   2
+  ],
+  [
+   "menos",
+   "persona",
+   2
+  ],
+  [
+   "menos",
+   "querer",
+   2
+  ],
+  [
+   "menos",
+   "quizas",
+   2
+  ],
+  [
+   "menos",
+   "tiro",
+   2
+  ],
+  [
+   "menos",
+   "toque",
+   2
+  ],
+  [
+   "menos",
+   "vida",
+   2
+  ],
+  [
+   "persona",
+   "querer",
+   2
+  ],
+  [
+   "persona",
+   "quizas",
+   2
+  ],
+  [
+   "persona",
+   "tiro",
+   2
+  ],
+  [
+   "persona",
+   "toque",
+   2
+  ],
+  [
+   "persona",
+   "vida",
+   2
+  ],
+  [
+   "querer",
+   "quizas",
+   2
+  ],
+  [
+   "querer",
+   "tiro",
+   2
+  ],
+  [
+   "querer",
+   "toque",
+   2
+  ],
+  [
+   "querer",
+   "vida",
+   2
+  ],
+  [
+   "quizas",
+   "tiro",
+   2
+  ],
+  [
+   "quizas",
+   "toque",
+   2
+  ],
+  [
+   "quizas",
+   "vida",
+   2
+  ],
+  [
+   "tiro",
+   "toque",
+   2
+  ],
+  [
+   "tiro",
+   "vida",
+   2
+  ],
+  [
+   "toque",
+   "vida",
+   2
+  ],
+  [
+   "mostrar",
+   "pueda",
    2
   ]
  ]
