@@ -1,7 +1,12 @@
 {
-  "actualizado": "2026-11-13 02:37",
+  "actualizado": "2026-11-20 05:27",
   "conceptos": [
     {
+      "entradas": [
+        "2026-11-03 03:23",
+        "2026-11-03 03:45",
+        "2026-11-13 02:36"
+      ],
       "id": "yo-analitico",
       "nombre": "Yo analítico (chamán, sabio)",
       "variantes": [
@@ -15,14 +20,12 @@
         "largo plazo",
         "analizado",
         "paso correcto"
-      ],
-      "entradas": [
-        "2026-11-03 03:23",
-        "2026-11-03 03:45",
-        "2026-11-13 02:36"
       ]
     },
     {
+      "entradas": [
+        "2026-11-03 03:45"
+      ],
       "id": "yo-presente",
       "nombre": "Juan Cruz de 20 años (yo presente)",
       "variantes": [
@@ -31,24 +34,24 @@
         "yo presente",
         "joven",
         "nuevo"
-      ],
-      "entradas": [
-        "2026-11-03 03:45"
       ]
     },
     {
+      "entradas": [
+        "2026-11-03 03:45"
+      ],
       "id": "balance",
       "nombre": "Balance entre los dos yo",
       "variantes": [
         "balance",
         "encontrar un balance",
         "darle lo mejor al yo presente"
-      ],
-      "entradas": [
-        "2026-11-03 03:45"
       ]
     },
     {
+      "entradas": [
+        "2026-11-02 23:48"
+      ],
       "id": "recompensa-instantanea",
       "nombre": "Recompensa instantánea vs. bien más grande",
       "variantes": [
@@ -58,12 +61,13 @@
         "ver ese más allá",
         "jugador de fútbol",
         "priorizar"
-      ],
-      "entradas": [
-        "2026-11-02 23:48"
       ]
     },
     {
+      "entradas": [
+        "2026-11-02 23:48",
+        "2026-11-13 02:36"
+      ],
       "id": "horarios-estimulo",
       "nombre": "Horarios y menos estímulo",
       "variantes": [
@@ -72,13 +76,14 @@
         "servicio militar",
         "hacer un cambio",
         "rutina"
-      ],
-      "entradas": [
-        "2026-11-02 23:48",
-        "2026-11-13 02:36"
       ]
     },
     {
+      "entradas": [
+        "2026-11-02 23:48",
+        "2026-11-02 23:55",
+        "2026-11-20 02:22"
+      ],
       "id": "musica",
       "nombre": "Música y pinchar",
       "variantes": [
@@ -87,14 +92,16 @@
         "descargar",
         "pinchar",
         "fecha",
-        "escucho música"
-      ],
-      "entradas": [
-        "2026-11-02 23:48",
-        "2026-11-02 23:55"
+        "escucho música",
+        "Escuchar música, ordenarla"
       ]
     },
     {
+      "entradas": [
+        "2026-11-02 23:55",
+        "2026-11-03 03:23",
+        "2026-11-20 02:22"
+      ],
       "id": "noche-libertad",
       "nombre": "La noche: dormir o quedarme (libertad)",
       "variantes": [
@@ -104,14 +111,18 @@
         "Discord",
         "libertad",
         "desperdiciar",
-        "me cortaban el internet"
-      ],
-      "entradas": [
-        "2026-11-02 23:55",
-        "2026-11-03 03:23"
+        "me cortaban el internet",
+        "no fumara",
+        "tanto a la noche"
       ]
     },
     {
+      "entradas": [
+        "2026-11-02 23:48",
+        "2026-11-03 03:45",
+        "2026-11-13 02:36",
+        "2026-11-20 02:22"
+      ],
       "id": "animo",
       "nombre": "Sentirme bien, motivado",
       "variantes": [
@@ -121,15 +132,17 @@
         "estar dentro de todo bien",
         "días buenos",
         "semanas buenas",
-        "afuera de mi mente"
-      ],
-      "entradas": [
-        "2026-11-02 23:48",
-        "2026-11-03 03:45",
-        "2026-11-13 02:36"
+        "afuera de mi mente",
+        "está bien"
       ]
     },
     {
+      "entradas": [
+        "2026-11-03 03:23",
+        "2026-11-03 03:29",
+        "2026-11-03 03:31",
+        "2026-11-03 03:35"
+      ],
       "id": "ritual",
       "nombre": "Ritual que se abre y se cierra (sueño)",
       "variantes": [
@@ -140,28 +153,26 @@
         "dejar abierto",
         "cerrarlo",
         "sesión"
-      ],
-      "entradas": [
-        "2026-11-03 03:23",
-        "2026-11-03 03:29",
-        "2026-11-03 03:31",
-        "2026-11-03 03:35"
       ]
     },
     {
+      "entradas": [
+        "2026-11-03 03:31",
+        "2026-11-03 03:35"
+      ],
       "id": "yo-del-sueno",
       "nombre": "El yo del sueño",
       "variantes": [
         "yo del sueño",
         "me desperté sin cerrarlo",
         "seguramente lo cerró"
-      ],
-      "entradas": [
-        "2026-11-03 03:31",
-        "2026-11-03 03:35"
       ]
     },
     {
+      "entradas": [
+        "2026-11-03 03:23",
+        "2026-11-03 03:29"
+      ],
       "id": "remera-almohada",
       "nombre": "La remera en la almohada",
       "variantes": [
@@ -169,36 +180,38 @@
         "almohada",
         "dormir mejor",
         "por alguna razón"
-      ],
-      "entradas": [
-        "2026-11-03 03:23",
-        "2026-11-03 03:29"
       ]
     },
     {
+      "entradas": [
+        "2026-11-03 03:23"
+      ],
       "id": "amigos-honey",
       "nombre": "Amigos y gente de la Honey",
       "variantes": [
         "amigos",
         "gente de la Honey",
         "ellos eran 6"
-      ],
-      "entradas": [
-        "2026-11-03 03:23"
       ]
     },
     {
+      "entradas": [
+        "2026-11-03 03:23"
+      ],
       "id": "abuelos",
       "nombre": "Departamento de mis abuelos",
       "variantes": [
         "abuelos",
         "la mesa del departamento"
-      ],
-      "entradas": [
-        "2026-11-03 03:23"
       ]
     },
     {
+      "entradas": [
+        "2026-11-02 23:44",
+        "2026-11-02 23:45",
+        "2026-11-03 03:45",
+        "2026-11-13 02:36"
+      ],
       "id": "registrar-pensamientos",
       "nombre": "Registrar mis pensamientos (este repo)",
       "variantes": [
@@ -206,26 +219,23 @@
         "repositorio",
         "guardar mis pensamientos",
         "no registro nada acá"
-      ],
-      "entradas": [
-        "2026-11-02 23:44",
-        "2026-11-02 23:45",
-        "2026-11-03 03:45",
-        "2026-11-13 02:36"
       ]
     },
     {
+      "entradas": [
+        "2026-11-02 23:48"
+      ],
       "id": "gato",
       "nombre": "Mi gato",
       "variantes": [
         "gato",
         "amo a mi gato"
-      ],
-      "entradas": [
-        "2026-11-02 23:48"
       ]
     },
     {
+      "entradas": [
+        "2026-11-03 06:17"
+      ],
       "id": "luquitas",
       "nombre": "Luquitas Rodríguez (referente)",
       "variantes": [
@@ -235,12 +245,12 @@
         "referente",
         "sus ideas",
         "su forma de pensar"
-      ],
-      "entradas": [
-        "2026-11-03 06:17"
       ]
     },
     {
+      "entradas": [
+        "2026-11-03 06:17"
+      ],
       "id": "parasocial",
       "nombre": "Relación parasocial",
       "variantes": [
@@ -248,12 +258,12 @@
         "creo que lo conozco",
         "entender su humor",
         "él no me conozca absolutamente nada"
-      ],
-      "entradas": [
-        "2026-11-03 06:17"
       ]
     },
     {
+      "entradas": [
+        "2026-11-03 06:17"
+      ],
       "id": "foto-capricho",
       "nombre": "La foto y el fondo (caprichoso)",
       "variantes": [
@@ -264,12 +274,12 @@
         "enojado",
         "buena onda",
         "caprichoso"
-      ],
-      "entradas": [
-        "2026-11-03 06:17"
       ]
     },
     {
+      "entradas": [
+        "2026-11-13 02:36"
+      ],
       "id": "miedo",
       "nombre": "Este miedo",
       "variantes": [
@@ -281,12 +291,12 @@
         "crear situaciones",
         "pequeño disconfort",
         "no siempre hay que estar preparado"
-      ],
-      "entradas": [
-        "2026-11-13 02:36"
       ]
     },
     {
+      "entradas": [
+        "2026-11-13 02:36"
+      ],
       "id": "control-preparado",
       "nombre": "Tener todo bajo control / estar preparado",
       "variantes": [
@@ -295,12 +305,12 @@
         "haberlo analizado",
         "estar preparado",
         "dar el paso correcto"
-      ],
-      "entradas": [
-        "2026-11-13 02:36"
       ]
     },
     {
+      "entradas": [
+        "2026-11-13 02:36"
+      ],
       "id": "sorpresa-rutina",
       "nombre": "Sorpresa vs. rutina",
       "variantes": [
@@ -309,12 +319,12 @@
         "no me llevo muy bien con la rutina",
         "qué linda que es la vida con sorpresa",
         "sorprenderse"
-      ],
-      "entradas": [
-        "2026-11-13 02:36"
       ]
     },
     {
+      "entradas": [
+        "2026-11-13 02:36"
+      ],
       "id": "psicologo-cap",
       "nombre": "El CAP y su psicóloga / mi psicólogo",
       "variantes": [
@@ -322,12 +332,12 @@
         "su psicóloga",
         "mi psicólogo",
         "psicólogo"
-      ],
-      "entradas": [
-        "2026-11-13 02:36"
       ]
     },
     {
+      "entradas": [
+        "2026-11-13 02:36"
+      ],
       "id": "abejita",
       "nombre": "La abejita (pileta)",
       "variantes": [
@@ -337,24 +347,26 @@
         "bichos",
         "asco",
         "pileta"
-      ],
-      "entradas": [
-        "2026-11-13 02:36"
       ]
     },
     {
+      "entradas": [
+        "2026-11-13 02:36",
+        "2026-11-13 04:49"
+      ],
       "id": "mama",
       "nombre": "Mi mamá",
       "variantes": [
         "mi vieja",
         "mi mamá",
-        "madre"
-      ],
-      "entradas": [
-        "2026-11-13 02:36"
+        "madre",
+        "todo es una ilusión"
       ]
     },
     {
+      "entradas": [
+        "2026-11-13 02:36"
+      ],
       "id": "papa",
       "nombre": "Mi papá",
       "variantes": [
@@ -363,12 +375,12 @@
         "padre",
         "a los 13 años",
         "no tuve a nadie para hablar"
-      ],
-      "entradas": [
-        "2026-11-13 02:36"
       ]
     },
     {
+      "entradas": [
+        "2026-11-13 02:36"
+      ],
       "id": "animarse-solo",
       "nombre": "Animarme / tocar la puerta yo solo",
       "variantes": [
@@ -376,9 +388,78 @@
         "me animé",
         "tocar más la puerta yo solo",
         "sin saber qué va a haber detrás"
+      ]
+    },
+    {
+      "entradas": [
+        "2026-11-13 04:25",
+        "2026-11-13 04:49"
+      ],
+      "id": "aura-contexto",
+      "nombre": "El AURA: el contexto (quiénes lo comparten)",
+      "variantes": [
+        "aura",
+        "AURA",
+        "contexto",
+        "el contexto",
+        "una pintura no es solo la pintura",
+        "el arte es contexto",
+        "quienes lo están compartiendo",
+        "comunicar aura",
+        "sin un contexto",
+        "todo lo que hay detrás",
+        "no tienen mucho sentido por sí solas"
+      ]
+    },
+    {
+      "entradas": [
+        "2026-11-13 04:49"
+      ],
+      "id": "marketing",
+      "nombre": "El marketing y la profundidad de las cosas",
+      "variantes": [
+        "marketing",
+        "la profundidad de las cosas",
+        "todo lo que hay detrás de que algo te parezca lo que es",
+        "por qué elegimos una prenda de ropa"
+      ]
+    },
+    {
+      "id": "chispa",
+      "nombre": "Ganas, energía, chispa",
+      "variantes": [
+        "ganas y energía",
+        "chispa",
+        "te saca la chispa",
+        "esta gilada"
       ],
       "entradas": [
-        "2026-11-13 02:36"
+        "2026-11-20 02:22"
+      ]
+    },
+    {
+      "id": "tengo-vs-quiero",
+      "nombre": "Cosas que tengo que hacer vs. cosas que quiero hacer",
+      "variantes": [
+        "las cosas que tengo que hacer",
+        "las cosas que quiero hacer",
+        "cumplo medio con las cosas que tengo que hacer"
+      ],
+      "entradas": [
+        "2026-11-20 02:22"
+      ]
+    },
+    {
+      "id": "laburo-editando",
+      "nombre": "Hablar con los de tu color / laburar editando",
+      "variantes": [
+        "los de tu color",
+        "laburar como editando",
+        "parte del negocio",
+        "yo debería hablar con los de tu color"
+      ],
+      "entradas": [
+        "2026-11-20 02:22"
       ]
     }
   ],
@@ -557,6 +638,51 @@
       "a": "papa",
       "b": "animarse-solo",
       "por": "Lo dijiste: \"es un poco hora de empezar a tocar más la puerta yo solo\" (02:36)"
+    },
+    {
+      "a": "aura-contexto",
+      "b": "musica",
+      "por": "Lo dijiste: \"un dj set no es solo la música\" (04:25)"
+    },
+    {
+      "a": "marketing",
+      "b": "aura-contexto",
+      "por": "Lo dijiste: \"las cosas no tienen mucho sentido por sí solas sin un contexto\" (04:49)"
+    },
+    {
+      "a": "mama",
+      "b": "aura-contexto",
+      "por": "Lo dijiste: \"hoy mi vieja me dijo tmb eso, todo es una ilusión\" (04:49)"
+    },
+    {
+      "a": "chispa",
+      "b": "noche-libertad",
+      "por": "Mismo pensamiento: \"capaz no fumara y no estuviera tanto a la noche\" y \"Esta gilada te saca la chispa\" (02:22)"
+    },
+    {
+      "a": "chispa",
+      "b": "animo",
+      "por": "Mismo pensamiento: \"me levanto durante el día y está bien... pero no es que tengo ganas y energía\" (02:22)"
+    },
+    {
+      "a": "tengo-vs-quiero",
+      "b": "musica",
+      "por": "Lo dijiste: \"las cosas que quiero hacer... Escuchar música, ordenarla\" (02:22)"
+    },
+    {
+      "a": "tengo-vs-quiero",
+      "b": "laburo-editando",
+      "por": "Lo dijiste: \"hace días que digo, che, yo debería hablar con los de tu color\" (02:22)"
+    },
+    {
+      "a": "tengo-vs-quiero",
+      "b": "noche-libertad",
+      "por": "Mismo pensamiento (02:22)"
+    },
+    {
+      "a": "tengo-vs-quiero",
+      "b": "chispa",
+      "por": "Mismo pensamiento (02:22)"
     }
   ]
 }
