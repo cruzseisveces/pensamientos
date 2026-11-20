@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-20 05:27",
+  "actualizado": "2026-11-20 05:28",
   "conceptos": [
     {
       "entradas": [
@@ -100,7 +100,8 @@
       "entradas": [
         "2026-11-02 23:55",
         "2026-11-03 03:23",
-        "2026-11-20 02:22"
+        "2026-11-20 02:22",
+        "2026-11-20 02:26"
       ],
       "id": "noche-libertad",
       "nombre": "La noche: dormir o quedarme (libertad)",
@@ -113,7 +114,8 @@
         "desperdiciar",
         "me cortaban el internet",
         "no fumara",
-        "tanto a la noche"
+        "tanto a la noche",
+        "un faso a la noche"
       ]
     },
     {
@@ -431,10 +433,13 @@
         "ganas y energía",
         "chispa",
         "te saca la chispa",
-        "esta gilada"
+        "esta gilada",
+        "ni ganas",
+        "M-E-H"
       ],
       "entradas": [
-        "2026-11-20 02:22"
+        "2026-11-20 02:22",
+        "2026-11-20 02:26"
       ]
     },
     {
@@ -443,10 +448,14 @@
       "variantes": [
         "las cosas que tengo que hacer",
         "las cosas que quiero hacer",
-        "cumplo medio con las cosas que tengo que hacer"
+        "cumplo medio con las cosas que tengo que hacer",
+        "esas cosas que quiero hacer",
+        "que no he hecho",
+        "un destello en el día y no lo hago"
       ],
       "entradas": [
-        "2026-11-20 02:22"
+        "2026-11-20 02:22",
+        "2026-11-20 02:26"
       ]
     },
     {
@@ -460,6 +469,37 @@
       ],
       "entradas": [
         "2026-11-20 02:22"
+      ]
+    },
+    {
+      "id": "intercambio-real",
+      "nombre": "Intercambio real con gente (riqueza)",
+      "variantes": [
+        "conocimos a los locos estos",
+        "los españoles",
+        "intercambiar",
+        "charlar",
+        "gente con la que se podía hablar",
+        "me gustó preguntar",
+        "la curiosidad",
+        "muy enriquecedor",
+        "opinión humana",
+        "un intercambio real",
+        "real y con riqueza",
+        "scrollear"
+      ],
+      "entradas": [
+        "2026-11-20 02:26"
+      ]
+    },
+    {
+      "id": "berry",
+      "nombre": "El Berry",
+      "variantes": [
+        "lo vi al Berry"
+      ],
+      "entradas": [
+        "2026-11-20 02:26"
       ]
     }
   ],
@@ -683,6 +723,21 @@
       "a": "tengo-vs-quiero",
       "b": "chispa",
       "por": "Mismo pensamiento (02:22)"
+    },
+    {
+      "a": "noche-libertad",
+      "b": "tengo-vs-quiero",
+      "por": "Lo dijiste: \"un faso a la noche y me acuerdo de esas cosas que quiero hacer, que no he hecho\" (02:26)"
+    },
+    {
+      "a": "chispa",
+      "b": "tengo-vs-quiero",
+      "por": "Lo dijiste: \"durante el día ni pienso en esas cosas, como que ni ganas\" (02:26)"
+    },
+    {
+      "a": "berry",
+      "b": "intercambio-real",
+      "por": "Mismo pensamiento: \"Y lo vi al Berry. Después nada, conocimos a los locos estos, los españoles\" (02:26)"
     }
   ]
 }

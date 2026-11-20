@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-20 02:24",
- "total_entradas": 16,
+ "generado": "2026-11-20 02:26",
+ "total_entradas": 17,
  "terminos": [
   {
    "id": "sueno",
@@ -13,6 +13,18 @@
     "2026-11-03 03:35",
     "2026-11-03 06:18",
     "2026-11-03 06:19"
+   ]
+  },
+  {
+   "id": "haber",
+   "t": "haber",
+   "n": 5,
+   "entradas": [
+    "2026-11-03 03:23",
+    "2026-11-03 03:29",
+    "2026-11-03 06:17",
+    "2026-11-13 02:36",
+    "2026-11-20 02:26"
    ]
   },
   {
@@ -38,14 +50,14 @@
    ]
   },
   {
-   "id": "haber",
-   "t": "haber",
+   "id": "durante",
+   "t": "durante",
    "n": 4,
    "entradas": [
-    "2026-11-03 03:23",
     "2026-11-03 03:29",
-    "2026-11-03 06:17",
-    "2026-11-13 02:36"
+    "2026-11-13 02:36",
+    "2026-11-20 02:22",
+    "2026-11-20 02:26"
    ]
   },
   {
@@ -60,6 +72,17 @@
    ]
   },
   {
+   "id": "menos",
+   "t": "menos",
+   "n": 4,
+   "entradas": [
+    "2026-11-02 23:48",
+    "2026-11-03 06:17",
+    "2026-11-13 02:36",
+    "2026-11-20 02:26"
+   ]
+  },
+  {
    "id": "dias",
    "t": "días",
    "n": 3,
@@ -70,23 +93,23 @@
    ]
   },
   {
-   "id": "durante",
-   "t": "durante",
+   "id": "encontrar",
+   "t": "encontrar",
    "n": 3,
    "entradas": [
-    "2026-11-03 03:29",
+    "2026-11-03 03:45",
     "2026-11-13 02:36",
-    "2026-11-20 02:22"
+    "2026-11-20 02:26"
    ]
   },
   {
-   "id": "menos",
-   "t": "menos",
+   "id": "hablar",
+   "t": "hablar",
    "n": 3,
    "entradas": [
-    "2026-11-02 23:48",
-    "2026-11-03 06:17",
-    "2026-11-13 02:36"
+    "2026-11-13 02:36",
+    "2026-11-20 02:22",
+    "2026-11-20 02:26"
    ]
   },
   {
@@ -97,6 +120,16 @@
     "2026-11-02 23:48",
     "2026-11-02 23:55",
     "2026-11-20 02:22"
+   ]
+  },
+  {
+   "id": "noche",
+   "t": "noche",
+   "n": 3,
+   "entradas": [
+    "2026-11-02 23:55",
+    "2026-11-20 02:22",
+    "2026-11-20 02:26"
    ]
   },
   {
@@ -127,6 +160,16 @@
     "2026-11-02 23:48",
     "2026-11-03 03:23",
     "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "quizas",
+   "t": "quizás",
+   "n": 3,
+   "entradas": [
+    "2026-11-03 06:17",
+    "2026-11-13 02:36",
+    "2026-11-20 02:26"
    ]
   },
   {
@@ -165,6 +208,15 @@
    "entradas": [
     "2026-11-03 03:23",
     "2026-11-03 03:29"
+   ]
+  },
+  {
+   "id": "agarrar",
+   "t": "agarrar",
+   "n": 2,
+   "entradas": [
+    "2026-11-13 02:36",
+    "2026-11-20 02:26"
    ]
   },
   {
@@ -222,6 +274,15 @@
    ]
   },
   {
+   "id": "dijo",
+   "t": "dijo",
+   "n": 2,
+   "entradas": [
+    "2026-11-13 02:36",
+    "2026-11-20 02:26"
+   ]
+  },
+  {
    "id": "dormir",
    "t": "dormir",
    "n": 2,
@@ -258,15 +319,6 @@
    ]
   },
   {
-   "id": "encontrar",
-   "t": "encontrar",
-   "n": 2,
-   "entradas": [
-    "2026-11-03 03:45",
-    "2026-11-13 02:36"
-   ]
-  },
-  {
    "id": "entender",
    "t": "entender",
    "n": 2,
@@ -282,6 +334,15 @@
    "entradas": [
     "2026-11-03 06:17",
     "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "escuchado",
+   "t": "escuchado",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:35",
+    "2026-11-20 02:26"
    ]
   },
   {
@@ -312,6 +373,15 @@
    ]
   },
   {
+   "id": "gusta",
+   "t": "gusta",
+   "n": 2,
+   "entradas": [
+    "2026-11-13 02:36",
+    "2026-11-20 02:26"
+   ]
+  },
+  {
    "id": "gustaria",
    "t": "gustaría",
    "n": 2,
@@ -321,12 +391,12 @@
    ]
   },
   {
-   "id": "hablar",
-   "t": "hablar",
+   "id": "internet",
+   "t": "internet",
    "n": 2,
    "entradas": [
-    "2026-11-13 02:36",
-    "2026-11-20 02:22"
+    "2026-11-02 23:55",
+    "2026-11-20 02:26"
    ]
   },
   {
@@ -402,15 +472,6 @@
    ]
   },
   {
-   "id": "noche",
-   "t": "noche",
-   "n": 2,
-   "entradas": [
-    "2026-11-02 23:55",
-    "2026-11-20 02:22"
-   ]
-  },
-  {
    "id": "numero de telefono",
    "t": "número de teléfono",
    "n": 2,
@@ -444,6 +505,24 @@
    "entradas": [
     "2026-11-03 06:17",
     "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "poder",
+   "t": "poder",
+   "n": 2,
+   "entradas": [
+    "2026-11-13 02:36",
+    "2026-11-20 02:26"
+   ]
+  },
+  {
+   "id": "preguntar",
+   "t": "preguntar",
+   "n": 2,
+   "entradas": [
+    "2026-11-13 02:36",
+    "2026-11-20 02:26"
    ]
   },
   {
@@ -492,15 +571,6 @@
    ]
   },
   {
-   "id": "quizas",
-   "t": "quizás",
-   "n": 2,
-   "entradas": [
-    "2026-11-03 06:17",
-    "2026-11-13 02:36"
-   ]
-  },
-  {
    "id": "raro",
    "t": "raro",
    "n": 2,
@@ -534,6 +604,15 @@
    "entradas": [
     "2026-11-02 23:48",
     "2026-11-13 02:36"
+   ]
+  },
+  {
+   "id": "simplemente",
+   "t": "simplemente",
+   "n": 2,
+   "entradas": [
+    "2026-11-03 03:45",
+    "2026-11-20 02:26"
    ]
   },
   {
@@ -611,6 +690,31 @@
   [
    "haber",
    "recuerdo",
+   3
+  ],
+  [
+   "durante",
+   "haber",
+   3
+  ],
+  [
+   "haber",
+   "menos",
+   3
+  ],
+  [
+   "haber",
+   "quizas",
+   3
+  ],
+  [
+   "menos",
+   "quizas",
+   3
+  ],
+  [
+   "durante",
+   "hablar",
    3
   ],
   [
@@ -726,6 +830,11 @@
   [
    "dormir",
    "sueno",
+   2
+  ],
+  [
+   "internet",
+   "noche",
    2
   ],
   [
@@ -1260,11 +1369,6 @@
   ],
   [
    "durante",
-   "haber",
-   2
-  ],
-  [
-   "durante",
    "recuerdo",
    2
   ],
@@ -1281,6 +1385,11 @@
   [
    "encontrar",
    "presente",
+   2
+  ],
+  [
+   "encontrar",
+   "simplemente",
    2
   ],
   [
@@ -1405,22 +1514,12 @@
   ],
   [
    "haber",
-   "menos",
-   2
-  ],
-  [
-   "haber",
    "persona",
    2
   ],
   [
    "haber",
    "querer",
-   2
-  ],
-  [
-   "haber",
-   "quizas",
    2
   ],
   [
@@ -1525,11 +1624,6 @@
   ],
   [
    "menos",
-   "quizas",
-   2
-  ],
-  [
-   "menos",
    "tiro",
    2
   ],
@@ -1616,6 +1710,56 @@
   [
    "toque",
    "vida",
+   2
+  ],
+  [
+   "agarrar",
+   "dijo",
+   2
+  ],
+  [
+   "agarrar",
+   "durante",
+   2
+  ],
+  [
+   "agarrar",
+   "encontrar",
+   2
+  ],
+  [
+   "agarrar",
+   "gusta",
+   2
+  ],
+  [
+   "agarrar",
+   "haber",
+   2
+  ],
+  [
+   "agarrar",
+   "hablar",
+   2
+  ],
+  [
+   "agarrar",
+   "menos",
+   2
+  ],
+  [
+   "agarrar",
+   "poder",
+   2
+  ],
+  [
+   "agarrar",
+   "preguntar",
+   2
+  ],
+  [
+   "agarrar",
+   "quizas",
    2
   ],
   [
@@ -1629,8 +1773,213 @@
    2
   ],
   [
+   "dijo",
    "durante",
+   2
+  ],
+  [
+   "dijo",
+   "encontrar",
+   2
+  ],
+  [
+   "dijo",
+   "gusta",
+   2
+  ],
+  [
+   "dijo",
+   "haber",
+   2
+  ],
+  [
+   "dijo",
    "hablar",
+   2
+  ],
+  [
+   "dijo",
+   "menos",
+   2
+  ],
+  [
+   "dijo",
+   "poder",
+   2
+  ],
+  [
+   "dijo",
+   "preguntar",
+   2
+  ],
+  [
+   "dijo",
+   "quizas",
+   2
+  ],
+  [
+   "durante",
+   "encontrar",
+   2
+  ],
+  [
+   "durante",
+   "gusta",
+   2
+  ],
+  [
+   "durante",
+   "menos",
+   2
+  ],
+  [
+   "durante",
+   "poder",
+   2
+  ],
+  [
+   "durante",
+   "preguntar",
+   2
+  ],
+  [
+   "durante",
+   "quizas",
+   2
+  ],
+  [
+   "encontrar",
+   "gusta",
+   2
+  ],
+  [
+   "encontrar",
+   "haber",
+   2
+  ],
+  [
+   "encontrar",
+   "hablar",
+   2
+  ],
+  [
+   "encontrar",
+   "menos",
+   2
+  ],
+  [
+   "encontrar",
+   "poder",
+   2
+  ],
+  [
+   "encontrar",
+   "preguntar",
+   2
+  ],
+  [
+   "encontrar",
+   "quizas",
+   2
+  ],
+  [
+   "gusta",
+   "haber",
+   2
+  ],
+  [
+   "gusta",
+   "hablar",
+   2
+  ],
+  [
+   "gusta",
+   "menos",
+   2
+  ],
+  [
+   "gusta",
+   "poder",
+   2
+  ],
+  [
+   "gusta",
+   "preguntar",
+   2
+  ],
+  [
+   "gusta",
+   "quizas",
+   2
+  ],
+  [
+   "haber",
+   "hablar",
+   2
+  ],
+  [
+   "haber",
+   "poder",
+   2
+  ],
+  [
+   "haber",
+   "preguntar",
+   2
+  ],
+  [
+   "hablar",
+   "menos",
+   2
+  ],
+  [
+   "hablar",
+   "poder",
+   2
+  ],
+  [
+   "hablar",
+   "preguntar",
+   2
+  ],
+  [
+   "hablar",
+   "quizas",
+   2
+  ],
+  [
+   "menos",
+   "poder",
+   2
+  ],
+  [
+   "menos",
+   "preguntar",
+   2
+  ],
+  [
+   "poder",
+   "preguntar",
+   2
+  ],
+  [
+   "poder",
+   "quizas",
+   2
+  ],
+  [
+   "preguntar",
+   "quizas",
+   2
+  ],
+  [
+   "durante",
+   "noche",
+   2
+  ],
+  [
+   "hablar",
+   "noche",
    2
   ]
  ]
